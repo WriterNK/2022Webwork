@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+   <style type="text/css">
+	h1{
+      font-size : 40px ;
+	}
+	h2{
+      font-size : 25px ;
+	}
+	section{
+     width:30%;
+     height:70%;
+     float:right;
+    }
+    section img{
+	 width:100%;
+	 margin:0;
+     opacity:0.5
+	}
+   </style>
+ </head>
+ <body>
+  <h1>孟郊：游子吟</h1>
+  <h2>慈母手中线，游子身上衣。</h2>
+  <h2>临行密密缝，意恐迟迟归。</h2>
+  <h2>谁言寸草心，报得三春辉？</h2>
+  <section>
+   <img src="https://img1.baidu.com/it/u=2933019367,3151567036&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=623">
+  </section>
+ </body>
+</html>

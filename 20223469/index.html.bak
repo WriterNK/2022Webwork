@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>网页制作</title>s
+  <style type="text/css">
+	body{
+      a{
+	  color: white:
+	  size: "6";
+	  } 
+
+	}
+  </style>
+ </head>
+ <body background="https://img0.baidu.com/it/u=2648978422,3012760573&fm=253&fmt=auto&app=138&f=JPEG?w=704&h=494" width="1000" height="500" border="1000" alt="10"">
+  <nav>
+   <ul>
+     <li><a href="file:///C:/Users/86158/Desktop/work1.html">第一周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/Web.html">第二周网页制作</a></li>
+    </ul>
+  </nav> 
+	
+
+ </body>
+</html>
