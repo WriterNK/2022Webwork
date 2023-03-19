@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>罗熠轩的作业主页</title>
+	
+    <style type="text/css">
+      background-image: url('https://cdn.pixabay.com/photo/2015/10/12/14/53/keyboard-984084_1280.jpg');
+        background-size: cover;
+	  .links {
+        padding: 10px;
+        max-width: 400px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        background-color: #f7f7f7;
+        display: block;
+       
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 10px;
+        transition: all 0.3s ease;
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+
+      a:hover {
+        color: #fff;
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>以下是罗熠轩的各周作业</h1>
+     
+	<div class="links">
+      <a href="first week.html">第一周作业</a>
+      <a href="second week.html">第二周作业</a>
+      <a href="third week.html">第三周作业</a>
+      <a href="fourth week.html">第四周作业</a>
+      <a href="fifth week.html">第五周作业</a>
+      <a href="sixth week.html">第六周作业</a>
+      <a href="seventh week.html">第七周作业</a>
+      <a href="eighth week.html">第八周作业</a>
+      <a href="ninth week.html">第九周作业</a>
+      <a href="tenth week.html">第十周作业</a>
+      <a href="eleventh week.html">第十一周作业</a>
+      <a href="twelfth week.html">第十二周作业</a>
+      <a href="thirteenth week.html">第十三周作业</a>
+      <a href="fourteenth week.html">第十四周作业</a>
+    </div>
+  </body>
+</html>
