@@ -6,22 +6,35 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <title>网页制作</title>s
+  <title>网页制作</title>
   <style type="text/css">
 	body{
-      a{
-	  color: white:
-	  size: "6";
-	  } 
+	background-image: url("https://pic2.zhimg.com/v2-a65b9a6cc683ea59d2146e4cb6da5bd1_r.jpg");
+	background-repeat:no-repeat;
+	background-position : center;
+	background-size : 100%;
 
 	}
   </style>
  </head>
- <body background="https://img0.baidu.com/it/u=2648978422,3012760573&fm=253&fmt=auto&app=138&f=JPEG?w=704&h=494" width="1000" height="500" border="1000" alt="10"">
+ <body >
   <nav>
    <ul>
-     <li><a href="file:///C:/Users/86158/Desktop/work1.html">第一周网页制作</a></li>
-     <li><a href="file:///C:/Users/86158/Desktop/Web.html">第二周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第一周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第二周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第三周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第四周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第五周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第六周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第七周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第八周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第九周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第十周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第十一周网页制作</a></li>
+     <li><a href="file:///C:/Users/86158/Desktop/20223469.html">第十二周网页制作</a></li>
+
+
+
     </ul>
   </nav> 
 	

@@ -61,20 +61,20 @@
     <img id="avatar" src="20223496lyx.jpg" alt="罗熠轩的头像">
      
 	<div class="links">
-      <a href="first week.html" title = "点击跳转至第一周作业页面" >第一周作业</a>
-      <a href="second week.html" title = "点击跳转至第周二作业页面" >第二周作业</a>
-      <a href="third week.html" title = "点击跳转至第三周作业页面" >第三周作业</a>
-      <a href="fourth week.html" title = "点击跳转至第四周作业页面" >第四周作业</a>
-      <a href="fifth week.html" title = "点击跳转至第五周作业页面" >第五周作业</a>
-      <a href="sixth week.html" title = "点击跳转至第六周作业页面" >第六周作业</a>
-      <a href="seventh week.html" title = "点击跳转至第七周作业页面" >第七周作业</a>
-      <a href="eighth week.html" title = "点击跳转至第八周作业页面" >第八周作业</a>
-      <a href="ninth week.html" title = "点击跳转至第九周作业页面" >第九周作业</a>
-      <a href="tenth week.html" title = "点击跳转至第十周作业页面" >第十周作业</a>
-      <a href="eleventh week.html" title = "点击跳转至第十一周作业页面" >第十一周作业</a>
-      <a href="twelfth week.html" title = "点击跳转至第十二周作业页面" >第十二周作业</a>
-      <a href="thirteenth week.html" title = "点击跳转至第十三周作业页面" >第十三周作业</a>
-      <a href="fourteenth week.html" title = "点击跳转至第十四周作业页面" >第十四周作业</a>
+      <a href="first week.html" title = "点击跳转至第一周作业页面 >第一周作业</a>
+      <a href="second week.html">第二周作业</a>
+      <a href="third week.html">第三周作业</a>
+      <a href="fourth week.html">第四周作业</a>
+      <a href="fifth week.html">第五周作业</a>
+      <a href="sixth week.html">第六周作业</a>
+      <a href="seventh week.html">第七周作业</a>
+      <a href="eighth week.html">第八周作业</a>
+      <a href="ninth week.html">第九周作业</a>
+      <a href="tenth week.html">第十周作业</a>
+      <a href="eleventh week.html">第十一周作业</a>
+      <a href="twelfth week.html">第十二周作业</a>
+      <a href="thirteenth week.html">第十三周作业</a>
+      <a href="fourteenth week.html">第十四周作业</a>
     </div>
   </body>
 </html>
