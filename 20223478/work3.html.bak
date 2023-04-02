@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>第三周垃圾</title>
+  <style type="text/css">
+   h1 {
+   font-size : 80px ;
+   text-align : center ;
+   color : red ;
+   }
+   body {
+   background-repeat : no-repeat ;
+   background-size : cover /*或者100%都是铺满*/;
+   }
+   h2 {
+   color : red ;
+   }
+   p {
+   color : black ;
+   }
+   a {
+   color : black ;
+   font-size : 100px ;
+   background-color : blue ;
+   text-decoration : none ;
+   margin : 0px ;
+   padding : 0px ;
+   }
+   a : hover {
+   color : red ;
+   }
+  </style>
+ </head>
+ <body background = https://pic.616pic.com/bg_w1180/00/13/41/eNfWfZKvzu.jpg>
+  <h1>NBA逆天操作</h1>
+  <h2>麦基逆天抓帽</h2>
+   <video width="520" height="520" controls  autoplay>
+	<source src="./麦基.mp4" type="video/mp4">
+   /*controls 是显示控制视频播放的控件，autoplay是自动播放（循环播放是loop*/
+   </video>
+  <h2>卡特死亡之扣</h2>
+   <p>2000年悉尼奥运会，他隔扣法国队身高2米18的中锋弗雷德里克-维斯，一战享誉全球。这个扣篮，后来被人称为“死亡之扣”。</p>
+   <video width="520" height="520" controls  autoplay>
+	<source src="./卡特.mp4" type="video/mp4">
+   </video>
+   <br>
+  <a href="./搞笑.mp4" target = "_blank">外番：搞笑视频</a>
+ </body>
+</html>
