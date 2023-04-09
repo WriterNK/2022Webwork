@@ -4,34 +4,52 @@
   <title>
   谢文杰的网页
   </title>
-  <style>
-  p{
+   <style>
+   body{
+    background-image:url("https://5b0988e595225.cdn.sohucs.com/images/20170908/235789cbf1814fc7ab3670aa2ef95d15.jpeg") ;
+    height : 1000px ;
+    width : 100% ;
+  
+    
+   }
+   p{
     font-size : 32px ;
     height : 96px ;
 	line-height : 88px ;
     color : blue ;
 	text-align : center ;
 	background-color : yellow ;
-  }
-  h1{
-  text-align : center ;
-  }
-  </style>
+   }
+   h1{
+    color : white ;
+    text-align : center ;
+   }
+   a{
+    background-color : red ;
+    border : 0 ;
+    padding : 10px ;
+    margin : 10px ;
+    color : black ;
+
+    }
+   a:hover{
+    background-color : blue ;
+    }
+    </style>
   
  </head>
  <body>
   <h1>
   谢文杰的作业
   </h1>
-  <p>
-  <a href="第一次作业.html">第一次作业
-  </a>
-  <a href="第二次作业.html">第二次作业
-  </a>
-  </p>
   <h2>
-  
-  <img src="20223499xwj.jpg" width="300" height="500" border="0" >
+   <img src="img/myface.img.jpg" width="100" height="160" border="0" >
   </h2>
+  <p>
+   <a href="第一次作业.html">第一次作业
+   </a>
+   <a href="第二次作业.html">第二次作业
+   </a>
+  </p>
  </body>
 </html>

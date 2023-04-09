@@ -31,8 +31,6 @@
    }
    footer{
    text-align : center ;
-   font-size : 50px ;
-   color : rgb(123,225,240) ;
    }
   </style>
  </head>
