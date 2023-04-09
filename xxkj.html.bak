@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style type="text/css">
+	a{
+	text-decoration : none ;
+	}
+	img{
+	height : 135px ;2023/4/9
+	width : 100px ; 
+	}
+  </style>
+  <title>学习空间</title>
+ </head>
+ <body>
+  <div class="book1">
+   <a href = "THE INTERNET BOOK/THE INTERNET BOOK.html" ><img src="THE INTERNET BOOK/THE INTERNET BOOK.png"></a>
+  </div>
+ </body>
+</html>

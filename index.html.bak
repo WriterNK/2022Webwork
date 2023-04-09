@@ -2,88 +2,247 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>22计算机科学与技术二班黄页 </title>
-   <style type="text/css">
-	 *{
-        margin : 0 ;
-   	    padding : 0 ; 
-      }
-
-     a{
-
-       background-color : rgb(6,200,100) ;
-       color : #000000 ;
-       text-decoration : none ;
-       line-height : 50px ;
-       font-size : 28px ;
-	   letter-spacing : 10px ;
-	   margin:15px ;
-	   padding:10px;
-      }
-     a:hover{
-      background-color : #E500B0 ;
-	  color : white ;
-      }
-	  h1{
+  <title>
+         2023计算机科学与技术二班黄页
+  </title>
+  <style type="text/css">
+     *{
+	 margin : 0 ;
+	 padding : 0 ;
+	 }
+  	h1{
 	  background-color : blue ;
 	  color : white ;
 	  font-size : 50px ;
-	  height : 100px ;
-	  padding : 25px ;
+	  height : 70px ;
+	  padding : 50px ;
 	  text-align : center ;
-	  }
-	  nav{
-	   margin: 10px ;
-	  }
-	  body{
-	  background : url("https://web.mit.edu/files/images/202303/MIT-Hash-Functions-SL.jpg") ;
-	  }
-    </style>
+	 }
+	h2{
+	font-size : 20px ;
+	}
+	a:hover{
+    color : gray ;
+	}
+	a{
+	text-decoration: none ;
+	color : white ;
+	}
+	body{
+	  background : url("https://tse4-mm.cn.bing.net/th/id/OIP-C.vCayjsPcdYkua5u--oWWEQHaEA?w=316&h=180&c=7&r=0&o=5&pid=1.7") ;
+	 }
+	img{
+	  border : 2px solid #FF8528 ;
+	  width : 100px ;
+	  height : 135px ;
+	 }
+    img:hover{
+	 border: 2px solid green ;
+	}
+	.name
+	{
+	 position: absolute;
+     top: 139px;
+     left: 23px;
+     width: 104px;
+     height: 30px;
+     background-color: #FF8528 ;
+     color: black;
+     font-size: 20px;
+     line-height: 35px;
+	}
+	.img{
+	 display: inline-block;
+     position: relative;
+     margin: 10px ;
+     width: 150px;
+     height: 250px;
+    }
+	.img1{
+	 text-align : center ;
+	 height : 200px ;
+	}
+	footer{
+	text-align : center ;
+	}
+	.x1{
+	color : white ;
+	text-align : center ;
+	}
+  </style>
  </head>
  <body>
-  <div>
-   <h1>
-    22计科二班Web黄页
-   </h1>
+  <div class="h1">
+	<h1>
+	 计算机科学与技术二班黄页
+	</h1>
   </div>
-  <nav>
-		
-        <a href = "20223466\index.html" >戈玉轩<img src="head\20223466xwj.jpg" width="100px" height="133px"></a>
-        <a href = "20223467\index.html" >王璐旺<img src="head\20223467wlw.jpg" width="100px" height="133px"></a>
-        <a href = "20223468\index.html" >黄可濠<img src="head\20223468hkh.jpg" width="100px" height="133px"></a>
-        <a href = "20223469\index.html" >龚俊键<img src="head\20223469gjj.jpg" width="100px" height="133px"></a>
-        <a href = "20223470\index.html" >袁滔滔<img src="head\20223470ytt.jpg" width="100px" height="133px"></a>
-        <a href = "20223471\index.html" >邬振华<img src="head\20223471wzh.jpg" width="100px" height="133px"></a>
-        <a href = "20223472\index.html" >王靖<img src="head\20223472wj.jpg" width="100px" height="133px"></a>
-        <a href = "20223473\index.html" >李晓晓<img src="head\20223473lxx.jpg" width="100px" height="133px"></a>
-        <a href = "20223474\index.html" >刘润林<img src="head\20223474lrl.jpg" width="100px" height="133px"></a>
-        <a href = "20223475\index.html" >陈紫轩<img src="head\20223475czx.jpg" width="100px" height="133px"></a>
-        <a href = "20223476\index.html" >刘尧民<img src="head\20223476lym.jpg" width="100px" height="133px"></a>
-        <a href = "20223477\index.html" >张伟强<img src="head\20223477zwq.jpg" width="100px" height="133px"></a>
-        <a href = "20223478\index.html" >汤晖<img src="head\20223478th.jpg" width="100px" height="133px"></a>
-        <a href = "20223479\index.html" >王敬权<img src="head\20223479wjq.jpg" width="100px" height="133px"></a>
-        <a href = "20223480\index.html" >吴忆东<img src="head\20223480wyd.jpg" width="100px" height="133px"></a>
-        <a href = "20223481\index.html" >熊文轩<img src="head\20223481xwx.jpg" width="100px" height="133px"></a>
-        <a href = "20223482\index.html" >李婉钦<img src="head\20223482lwq.jpg" width="100px" height="133px"></a>
-        <a href = "20223483\index.html" >韩雨彤<img src="head\20223483hyt.jpg" width="100px" height="133px"></a>
-        <a href = "20223484\index.html" >王云飞<img src="head\20223484wyf.jpg" width="100px" height="133px"></a>
-        <a href = "20223485\index.html" >胡荣<img src="head\20223485hl.jpg" width="100px" height="133px"></a>
-        <a href = "20223486\index.html" >刘志敏<img src="head\20223486lzm.jpg" width="100px" height="133px"></a>
-        <a href = "20223487\index.html" >刘廷逍<img src="head\20223487ltx.jpg" width="100px" height="133px"></a>
-        <a href = "20223488\index.html" >林鹏宇<img src="head\20223488lpy.jpg" width="100px" height="133px"></a>
-        <a href = "20223489\index.html" >李昱鹏<img src="head\20223489lyp.jpg" width="100px" height="133px"></a>
-        <a href = "20223490\index.html" >邢益磊<img src="head\20223490xyl.jpg" width="100px" height="133px"></a>
-        <a href = "20223491\index.html" >张益泽<img src="head\20223491zyz.jpg" width="100px" height="133px"></a>
-        <a href = "20223492\index.html" >罗兹全<img src="head\20223492lzq.jpg" width="100px" height="133px"></a>		
-        <a href = "20223493\index.html" >杨欣杰<img src="head\20223493yxj.jpg" width="100px" height="133px"></a>		
-        <a href = "20223494\index.html" >简婷婷<img src="head\20223494jtt.jpg" width="100px" height="133px"></a>		
-        <a href = "20223495\index.html" >郑坤翔<img src="head\20223495zkx.jpg" width="100px" height="133px"></a>		
-        <a href = "20223496\index.html" >罗熠轩<img src="head\20223496lyx.jpg" width="100px" height="133px"></a>		
-        <a href = "20223497\index.html" >李贞<img src="head\20223497lz.jpg" width="100px" height="133px"></a>
-        <a href = "20223498\index.html" >黄锡昭<img src="head\20223498hxz.jpg" width="100px" height="133px"></a>		
-        <a href = "20223466\index.html" >谢文杰<img src="head\20223499xwj.jpg" width="100px" height="133px"></a>
+  <div class="x1">
+	<a href="">点此进入学习空间</a>
+  </div>
 
+  <div class="img1">
+     <div class="img">
+	  <a href = "20223466\index.html" ><img src="20223466\img\myface.jpg"></a>
+	  <span class="name">戈玉轩</span>
+	 </div>
+	 <div class="img">
+	  <a href = "20223467\index.html" ><img src="20003467\img\myface.jpg"></a>
+	  <span class="name">王璐旺</span>
+	 </div>
+     <div class="img">
+      <a href = "20223468\index.html" ><img src="20223468\img\myface.jpg"></a>
+	  <span class="name">黄可濠</span>
+     </div>
+     <div class="img"> 
+      <a href = "20223469\index.html" ><img src="20223469\img\myface.jpg"></a>
+	  <span class="name">龚俊键</span>
+     </div>
+     <div class="img">
+      <a href = "20223470\index.html" ><img src="20223470\img\myface.jpg"></a>
+	  <span class="name">袁滔滔</span>
+     </div>
+   </div>
 
-  </nav>
+  <div class="img1"> 
+     <div class="img">
+      <a href = "20223471\index.html" ><img src="20223471\img\myface.jpg"></a>
+	  <span class="name">邬振华</span>
+     </div>
+     <div class="img">
+      <a href = "20223472\index.html" ><img src="20223472\img\myface.jpg"></a>
+	  <span class="name">王靖</span>
+     </div>
+     <div class="img">
+      <a href = "20223473\index.html" ><img src="20223473\img\myface.jpg"></a>
+	  <span class="name">李晓晓</span>
+     </div>
+     <div class="img">
+      <a href = "20223474\index.html" ><img src="20223474\img\myface.jpg"></a>
+	  <span class="name">刘润林</span>
+     </div>
+     <div class="img">
+      <a href = "20223475\index.html" ><img src="20223475\img\myface.jpg"></a>
+	  <span class="name">陈紫轩</span>
+     </div>
+  </div>
+
+  <div class="img1">
+     <div class="img">
+      <a href = "20223476\index.html" ><img src="20223476\img\myface.jpg"></a>
+	  <span class="name">刘尧民</span>
+     </div>
+     <div class="img">
+      <a href = "20223477\index.html" ><img src="20223477\img\myface.jpg"></a>
+	  <span class="name">张伟强</span>
+     </div>
+     <div class="img">
+      <a href = "20223478\index.html" ><img src="20223478\img\myface.jpg"></a>
+	  <span class="name">汤晖</span>
+     </div>
+     <div class="img"> 
+      <a href = "20223479\index.html" ><img src="20223479\img\myface.jpg"></a>
+	  <span class="name">王敬权</span>
+     </div>
+     <div class="img">
+      <a href = "20223480\index.html" ><img src="20223480\img\myface.jpg"></a>
+	  <span class="name">吴忆东</span>
+     </div>
+  </div>
+
+  <div class="img1">
+     <div class="img">
+      <a href = "20223481\index.html" ><img src="20223481\img\myface.jpg"></a>
+	  <span class="name">熊文轩</span>
+     </div>
+     <div class="img">
+      <a href = "20223482\index.html" ><img src="20223482\img\myface.jpg"></a>
+	  <span class="name">李婉钦</span>
+     </div>
+     <div class="img">
+      <a href = "20223483\index.html" ><img src="20223483\img\myface.jpg"></a>
+	  <span class="name">韩雨彤</span>
+     </div>
+     <div class="img">
+      <a href = "20223484\index.html" ><img src="20223484\img\myface.jpg"></a>
+	  <span class="name">王云飞</span>
+     </div>
+     <div class="img">
+      <a href = "20223485\index.html" ><img src="20223485\img\myface.jpg"></a>
+	  <span class="name">胡荣</span>
+     </div>
+  </div>
+	 
+  <div class="img1">
+     <div class="img">
+      <a href = "20223486\index.html" ><img src="20223486\img\myface.jpg"></a>
+	  <span class="name">刘志敏</span>
+     </div>
+     <div class="img">
+      <a href = "20223487\index.html" ><img src="20223487\img\myface.jpg"></a>
+	  <span class="name">刘廷逍</span>
+     </div>
+     <div class="img">
+      <a href = "20223488\index.html" ><img src="20223488\img\myface.jpg"></a>
+	  <span class="name">林鹏宇</span>
+     </div>
+     <div class="img">
+      <a href = "20223489\index.html" ><img src="20223489\img\myface.jpg"></a>
+	  <span class="name">李昱鹏</span>
+     </div>
+     <div class="img">
+      <a href = "20223490\index.html" ><img src="20223490\img\myface.jpg"></a>
+	  <span class="name">邢益磊</span>
+     </div>
+  </div>
+
+  <div class="img1">
+     <div class="img">
+      <a href = "20223491\index.html" ><img src="20223491\img\myface.jpg"></a>
+	  <span class="name">张益泽</span>
+     </div>
+     <div class="img">
+      <a href = "20223492\index.html" ><img src="20223492\img\myface.jpg"></a>
+	  <span class="name">罗兹全</span>
+     </div>
+     <div class="img">
+      <a href = "20223493\index.html" ><img src="20223493\img\myface.jpg"></a>
+	  <span class="name">杨欣杰</span>
+     </div>
+     <div class="img">
+      <a href = "20223494\index.html" ><img src="20223494\img\myface.jpg"></a>
+	  <span class="name">简婷婷</span>
+     </div>
+     <div class="img">
+      <a href = "20223495\index.html" ><img src="20223495\img\myface.jpg"></a>
+	  <span class="name">郑坤翔</span>
+     </div>
+  </div>
+
+  <div class="img1">
+     <div class="img">
+      <a href = "20223496\index.html" ><img src="20223496\img\myface.jpg"></a>
+	  <span class="name">罗熠轩</span>
+     </div>
+     <div class="img">
+      <a href = "20223497\index.html" ><img src="20223497\img\myface.jpg"></a>
+	  <span class="name">李贞</span>
+     </div>
+     <div class="img">
+      <a href = "20223498\index.html" ><img src="20223498\img\myface.jpg"></a>
+	  <span class="name">黄锡昭</span>
+     </div>
+     <div class="img">
+      <a href = "20223499\index.html" ><img src="20223499\img\myface.jpg"></a>
+	  <span class="name">谢文杰</span>
+     </div>
+   </div>
+
  </body>
+ <footer>
+  <h2>
+   <a href="https://www.jxstnu.edu.cn/">江西科技师范大学元宇宙产业学院</a><br>
+   <a href="https://writernk.github.io/2023Webwork/">计算机科学与技术二班</a>
+  </h2>
+ </footer>
 </html>
