@@ -13,7 +13,7 @@
 	 font-size : 30px ;
 	 font-weight : bold ;
 	 letter-spacing : 10px ;
-	 margin : 5px ;
+	 margin : 10px ;
 	 padding : 15px ;
 	}
 	a:hover{
@@ -29,7 +29,7 @@
 	 text-align : center ;
 	}
 	body{
-	 background : url(https://img2.baidu.com/it/u=3615206152,480919585&fm=253&fmt=auto&app=138&f=JPEG) ;
+	 background : url(https://img1.baidu.com/it/u=3048390278,1249381552&fm=253&fmt=auto&app=138&f=JPEG?w=888&h=500) ;
 	}
 	footer{
 	  background-color : gray ;
@@ -47,10 +47,11 @@
     小陈的页面
    </h1>
   <nav>
-   <a href = "work1.html" >第一次作业</a>
-   <a href = "work2.html" >第二次作业</a>
-   <a href = "work3.html" >第三次作业</a>
-   <a href = "work4.html" >第四次作业</a>
+   <a href = "work1.html" >游子吟</a>
+   <a href = "work2.html" >三国演义</a>
+   <a href = "work3.html" >课堂笔记</a>
+   <a href = "work4.html" >秦世纪</a>
+   <a href = "work5.html" >斯蒂芬·库里</a>
   </nav>
   <div>
    <img src="img/myface.jpg" title="陈紫轩的头像" height="250px" border="0">
