@@ -29,9 +29,8 @@
 		<option value="">南京
 		<option value="">广州
 		<option value="">福建
-	</select><br>
-    今日反馈:
-	<textarea name="" rows="" cols="">
+	</select>
+    今日反馈:<textarea name="" rows="10" cols="3">
 	</textarea>
   </form>
  </body>

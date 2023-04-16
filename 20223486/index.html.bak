@@ -42,7 +42,7 @@
    我的个人网页
  </div>
   <nav>
-   <a href="man.html" target="_blank"><img src="img/man.jpg" title="个人简介" alt="图片太帅找不到"></a>
+   <a href="man.html" target="_self"><img src="img/man.jpg" title="个人简介" alt="图片太帅找不到"></a>
   </nav>
   <nav>
    <a href="page1.html" target="_blank">page1</a>
@@ -61,6 +61,6 @@
   </nav>
  </body>
  <footer>
-   江西科技师范大学元宇宙产业学院
+   <strong>江西科技师范大学元宇宙产业学院</strong>
  </footer>
 </html>

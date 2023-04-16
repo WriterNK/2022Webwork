@@ -1,13 +1,13 @@
-﻿<!DOCTYPE HTML>
-<!DOCTYPE html PUBLIC "" ""><HTML lang="en"><HEAD><META content="IE=11.0000" 
-http-equiv="X-UA-Compatible">
-   
-<META charset="UTF-8">   
-<META name="GENERATOR" content="MSHTML 11.00.10570.1001">   
-<META name="Author" content="">   
-<META name="Keywords" content="">   
-<META name="Description" content="">   <TITLE>罗熠轩的个人主页</TITLE>   
-<STYLE type="text/css">
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>罗熠轩的个人主页</title>
+  <style type="text/css">
 	
 	h1{
 	 font-size : 48px ;
@@ -15,6 +15,7 @@ http-equiv="X-UA-Compatible">
 	 background-color : #377E47 ;
 	 width : 60% ;
 	 padding : 10px ;
+	 color : white ;
 	}
 	footer{
 	 text-align : right ;
@@ -33,7 +34,7 @@ http-equiv="X-UA-Compatible">
 	 background-color : #F6FAD9 ;
 	}
 	a:hover {
-	 border: 1px solid #ccc ;
+	 border: 1px sopd #ccc ;
 	 background-color : #507F80 ;
 	}
     .work{
@@ -43,45 +44,41 @@ http-equiv="X-UA-Compatible">
 	#title{
 	text-align : center ;
 	}
-	li{
-	
+	p{
+	 margin : 0px ;
 	}
 	body{
 	 font-family : "微软雅黑" ;
 	}
-  </STYLE>
-  </HEAD>  
-<BODY>
-<DIV id="tip">注：该网页用于陈列罗熠轩同学在web开发基础课程学习期间所编写的作业   </DIV>&lt;
-<DIV id="title">
-<H1>以下是罗熠轩的各周作业    </H1></DIV>
-<DIV class="work">
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/first%20week.html">第一周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/second%20week.html">第二周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/third%20week.html">第三周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/fourth%20week.html">第四周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/fifth%20week.html">第五周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/sixth%20week.html">第六周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/seventh%20week.html">第七周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/eighth%20week.html">第八周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/ninth%20week.html">第九周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/tenth%20week.html">第十周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/eleventh%20week.html">第十一周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/twelfth%20week.html">第十二周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/thirteenth%20week.html">第十三周作业</A></LI>
-<LI><A 
-href="file:///C:/Users/26271/AppData/Local/Temp/fourteenth%20week.html">第十四周作业</A></LI></DIV><FOOTER> 
-   更新时间：2023年4月9日    </FOOTER></BODY></HTML>
+  </style>
+ </head>
+ <body>
+  <div id="tip">
+	注：该网页用于陈列罗熠轩同学在web开发基础课程学习期间所编写的作业
+  </div>
+  <div id="title">
+   <h1>
+    以下是罗熠轩的各周作业
+   </h1>
+  </div>
+   <div class="work">
+	  <p><a href="first week.html">第一周作业</a></p>
+      <p><a href="second week.html">第二周作业</a></p>
+      <p><a href="third week.html">第三周作业</a></p>
+      <p><a href="fourth week.html">第四周作业</a></p>
+      <p><a href="fifth week.html">第五周作业</a></p>
+      <p><a href="sixth week.html">第六周作业</a></p>
+      <p><a href="seventh week.html">第七周作业</a></p>
+      <p><a href="eighth week.html">第八周作业</a></p>
+      <p><a href="ninth week.html">第九周作业</a></p>
+      <p><a href="tenth week.html">第十周作业</a></p>
+      <p><a href="eleventh week.html">第十一周作业</a></p>
+      <p><a href="twelfth week.html">第十二周作业</a></p>
+      <p><a href="thirteenth week.html">第十三周作业</a></p>
+      <p><a href="fourteenth week.html">第十四周作业</a></p>
+   </div>
+   <footer>
+    更新时间：2023年4月9日
+   </footer>
+ </body>
+</html>
