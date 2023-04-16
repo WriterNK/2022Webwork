@@ -6,10 +6,93 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <title>hello</title>
+  <title>Document</title>
+  <style type="text/css">
+    body{
+	      
+	}
+	a{
+	     font-size:30px;
+		 line-height:60px;
+		 text-decoration:none;
+		 color:#ffa500;
+		 
+	}
+	.one{
+	     margin: 0 auto;
+		 width:800px;
+		 height:1000px;
+		 background-color:pink;
+		 text-align:center;
+		 background-image:url("微信图片_20230328160441.jpg");
+	}
+	.two{
+	     text-indent:2em;
+		 text-align:left;
+		 color:white;
+		 text-decoration:underline;
+	}
+    .three{
+	     text-align:right;
+		 font-size:25px;
+		 font-style:italic;
+	}
+  </style>
  </head>
  <body>
-  <a href="work1.html" target="blank">work1</a>
-  <a href="work2.html" target="blank">work2</a>
+  <div id="" class="one">
+	<h1>科师大梁朝伟的个人主页</h1>
+	<hr>
+	<img src="C:\Users\asus\Pictures\Saved Pictures\微信图片_20230410133433.jpg" width="" height="" border="0" alt="" title="绝对不要看">
+	<img src="C:\Users\asus\Pictures\Saved Pictures\微信图片_20230410125420.jpg" width="" height="" border="0" alt="" title="眼睛里的郁金香">
+    <div id="" class="two">
+	   <p>王云飞，2004年4月4日出生于中国香港，祖籍广东台山，华语影视男演员、歌手，国家一级演员。</p>
+       <p>1994年凭借电影《重庆森林》第一次获得金像奖、金马奖最佳男主角奖。1997年凭借电影《春光乍泄》二度获得金像奖最佳男主角奖。2000年主演电影《花样年华》，凭借该片获得第53届戛纳国际电影节最佳男演员奖、第三次获得金像奖最佳男主角奖。</p>
+       <p>2003年凭借电影《无间道》获得金像奖、金马奖最佳男主角奖。2005年凭借电影《2046》五度获得金像奖最佳男主角奖。2007年凭借电影《色·戒》三度获得金马奖最佳男主角奖。</p>
+    </div>
+	<a href="E:\web\work1.html" target="blank">work1</a> <a href="E:\web\work2.html" target="blank">work2</a>
+	<br>
+	<audio src="C:\Users\asus\Music\宝藏挖掘机 - 《邂逅江南》许嵩：风吹杨柳上了岸，一天两天发现你我似神仙 (节目).ogg"controls></audio>
+	<br>
+	<div id="" class="three">
+		邂逅江南-许嵩
+	</div>
+	<form method="post" action="">
+	
+  
+	  账号：<input type="text" placeholder="手机号/学号">
+	  <br>
+	  <br>
+
+	  密码：<input type="password" placeholder="请输入密码">
+
+	  <br>
+	  <br>
+	  <label>性别：<input type="radio" name="gender">男</label> 
+	  <label><input type="radio" name="gender">女</label>
+	  
+	  <br>
+	  <br>
+	  籍贯：<select>
+				<option>江苏</option>
+				<option>上海</option>
+				<option>北京</option>
+                <option selected>江西</option>
+	          </select>
+			<br>
+	        <br>
+	<div>		
+	  <input type="submit" value="真提交">
+	  <input type="button" value="假提交">
+	  <input type="reset">
+	  
+      <br>
+	  <br>
+    </div>
+  </form>
+    <div>
+	  上传文件：<input type="file">
+	  <br>
+  </div>
  </body>
 </html>

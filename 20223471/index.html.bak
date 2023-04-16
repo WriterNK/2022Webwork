@@ -8,7 +8,6 @@
   <style type="text/css">
    body{
    background : url("https://image-assets.mihuashi.com/permanent/4845%7C-2023/02/01/21/FnM_lacdLv1Izhy8Q5BA6DKbdWGP.png!artwork.detail") ;
-   background-repeat : no-repeat;
    background-size : 100% ;
    }
    h1{
@@ -16,7 +15,7 @@
    text-align : center ;
    }
    nav{
-   font-size : 50px;
+   font-size : 50px ;
    text-align : center ;
    color : green ;
    }
@@ -30,7 +29,7 @@
  </head>
  <body>
   <h1>
-   我的个人网页
+   邬振华的个人网页
   </h1>
   <nav>
   <details>
