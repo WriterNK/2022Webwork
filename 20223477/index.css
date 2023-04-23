@@ -1,0 +1,138 @@
+/*container*/
+header{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    height: 50px;
+    
+}
+nav{
+    display: block;
+    white-space: nowrap;
+    width: auto;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    background-color: rgb(186, 186, 186);
+    height: 630px;
+}
+aside{
+    background-color: chartreuse;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 86, 86);
+}
+li{
+    display: inline-block;
+}
+a{
+    color: #f2eded;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+    align-items: center;
+}
+.sppl{
+    display: inline-block;
+}
+.spjj{
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.czpl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mb{
+    background-color: #ffffff;
+    height: 855px;
+}
+
+/*text*/
+.threed {
+    text-shadow: 2px 0px 1px rgb(255, 255, 255), 2px 0px 1px rgb(255, 255, 255), 2px 0px 1px rgb(255, 255, 255), 2px 0px 1px rgb(255, 255, 255);
+    color: rgb(133, 133, 245);
+    font-size: 30px;
+    font-weight: bold;
+}
+.by{
+    color: crimson;
+    font-family: 隶书;
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+    color: crimson;
+    text-align: center;
+}
+.moviename{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.lj1:hover{
+    font-weight: bolder;
+    color: #ffffff;
+}
+.lj2:hover{
+    color: black;
+    font-weight: bolder;
+}
+.by1{
+    font-size: 100px;
+    font-family: 楷书;
+    font-weight: bolder;
+}
+/* 响应式设计 */
+@media (max-width: 768px) {
+    body {
+         font-size: 16px;
+    }
+  }
+/*菜单显示
+.menu {
+    right: auto;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.menu li{
+    list-style: none;
+    margin: 5px 0;
+}
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.show {
+    display: block;
+}
+*/
+/*picture*/
+.moviephoto{
+    height: 250px;
+    width: 160px;
+}
