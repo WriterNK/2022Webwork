@@ -10,24 +10,47 @@
 	text-align : center ;
 	}
 	a{
-	color : yellow ;
+	color : blue ;
+	font-family : "黑体" ;
+	font-size : 30px ;
 	}
 	a:hover{
-	color : red ;
+	 color : red ;
+	 background-color : blue;
+	}
+	a{
+	 margin : 25px;
+	 padding : 15px;
+	 border : 5px dotted green;
+	 border-style : dotted solid;
+	 border-radius : 15px;
+	 text-align : justify;
+	 overflow : auto;
+	 background-color : yellow;
+	 
 	}
 	body{
      background-image:url(https://www.tsinghua.edu.cn/__local/8/17/A4/2492FB474A7906383B460BAEFB5_0C124750_107365.jpg);
-	 font-size : 25px ;
+	 background-size : 100% 100%;
+	 font-size :25px ;
+	}
+    div{
+	 text-align : center ;
+	 
+	}
+	center{
+     margin : 50px;
 	}
   </style>
  </head>
  <body>
-  <h1>我的作业</h1>
-  <ul>
-	<li><a href="work1.html">第一周</a></li>
-	<li><a href="work2.html">第二周</a></li>
-	<li><a href="work3.html">第三周</a></li>
-    <li><a href="work4.html">第四周</a></li>
-  </ul>
+  <h1>我的主页</h1>
+  <center><img src="img/kelakela.jpg" width="200" height="200"></center>
+  <div>
+	<a href="work1.html">第一周</a>
+	<a href="work2.html">第二周</a>
+	<a href="work3.html">第三周</a>
+    <a href="work4.html">第四周</a>
+  </div>
  </body>
 </html>

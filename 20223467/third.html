@@ -8,16 +8,17 @@
     <style>
         .nav {
             height: 60px;
+            border-bottom: 10px solid white;
         }
 
         .header {
             height: 60px;
             border-top: 3px solid white;
             border-bottom: 1px solid white;
-            background-color: white;
             line-height: 61px;
             width: 1000px;
             float: left;
+            background-color: white;
         }
 
         .header a {
@@ -25,7 +26,7 @@
             padding: 0 30px;
             font-size: 14px;
             height: 60px;
-            color: #4c4c4c;
+            color: black;
             text-decoration: none;
         }
 
@@ -48,28 +49,36 @@
             float: left;
         }
 
-        li {
-            list-style: none;
-        }
 
         .select {
             height: 420px;
             width: 170px;
-            background-color: orange;
-            color: black;
+            background-color: #757575;
+            color: white;
+            float: left;
         }
 
-        .select ul li a {
+        .select a {
             display: inline-block;
-            height: 70px;
-            width: 80px;
+            border-top: 18px solid #757575;
+            height: 50px;
+            width: 170px;
             text-decoration: none;
             text-align: center;
+            color: white;
         }
 
-        .select ul li a:hover {
-            background-color: orange;
-            color: skyblue;
+        .paper {
+            float: left;
+        }
+
+        .xunzhao {
+            height: 60px;
+            border-top: 3px solid white;
+            border-bottom: 1px solid white;
+            line-height: 61px;
+            float: left;
+            background-color: white;
         }
     </style>
     <title>第三次作业</title>
@@ -94,28 +103,18 @@
             <a href="#">服务中心</a>
             <a href="#">社区</a>
         </div>
+        <div class="xunzhao">
+            <input type="text" class="input" placeholder="请输入商品">
+            <input type="button" value="搜索">
+        </div>
     </div>
     <div class="select">
-        <ul>
-            <li>
-                <a href="#">手机</a>
-            </li>
-            <li>
-                <a href="#">电视</a>
-            </li>
-            <li>
-                <a href="#">家电</a>
-            </li>
-            <li>
-                <a href="#">笔记本 平板</a>
-            </li>
-            <li>
-                <a href="#">出行 穿戴</a>
-            </li>
-            <li>
-                <a href="#">耳机 音箱</a>
-            </li>
-        </ul>
+        <a href="#">手机</a>
+        <a href="#">电视</a>
+        <a href="#">家电</a>
+        <a href="#">笔记本 平板</a>
+        <a href="#">出行 穿戴</a>
+        <a href="#">耳机 音箱</a>
     </div>
 </body>
 

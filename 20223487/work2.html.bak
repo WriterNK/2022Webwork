@@ -1,4 +1,5 @@
 <!doctype html>
+<meta charset="UTF-8">
 <html>
 <head>
 <title>
@@ -9,6 +10,7 @@ p{text-indent:50px}
 </style>
 </head>
 <body>
+<h1><a href="index.html">返回主页</a></h1>
 <h1>
 <b>
 一、html页面的组织结构1
