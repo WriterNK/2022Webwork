@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url("backimg.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center top;
+        }
+
+        .box {
+            border: 5px solid black;
+            margin: 100px auto;
+            width: 600px;
+            height: 112px;
+            overflow: hidden;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+            height: 112px;
+        }
+
+        .box ul {
+            width: 1400px;
+            animation: move 3s linear infinite;
+        }
+
+        .box li {
+            float: left;
+        }
+
+        p {
+            width: 200px;
+        }
+
+        @keyframes move {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+
+            to {
+                transform: translate3d(-800px, 0, 0);
+            }
+        }
+
+        .myface {
+            width: 10px;
+            margin: auto;
+        }
+    </style>
+    <title>Web作业</title>
+</head>
+
+<body>
+    <div class="myface">
+        <img src="img/myface.jpg" title="22计科20223467王璐旺">
+    </div>
+    <div class="box">
+        <ul>
+            <li>
+                <p>
+                    <a href="first.html">第一次作业</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="second.html">第二次作业</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="third.html">第三次作业</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="four.html">第四次作业</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="first.html">第一次作业</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="second.html">第二次作业</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="third.html">第三次作业</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
