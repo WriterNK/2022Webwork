@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style type="text/css">
+   a{
+     font-size : 30px ;
+	 color : black ;
+	 letter-spacing : 5px ;
+	 margin : 10px ;
+	 padding : 5px ;
+   }
+   a:hover{
+     background-color : #4169E1 ;
+	 color : white ;
+   }
+   	h1{
+	 font-size :50px ;
+	 text-align : center ;
+	}
+  </style>
+ </head>
+ <body>
+  <h1>
+   斯蒂芬·库里
+  </h1>
+  <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C._ca6bDZRnfxd-wQ4EK2EfAHaEk?w=261&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="450" height="400" >
+  <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.oZSasHQm1s5k3aBqg04RcwHaE8?w=258&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="500" height="400">
+  <div  class="img">
+   <a href="k1.html">个人简介</a>
+   <a href="k2.html">金州勇士</a>
+  </div>
+ </body>
+</html>
