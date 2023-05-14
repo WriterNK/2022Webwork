@@ -2,6 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <style type="text/css">
 	h1{
      background-color : powderblue ;
@@ -30,7 +31,7 @@
   <img src="img/one.jpg" width="300" height="500" border="0" >
   <img src="img/two.jpg" width="300" height="500" border="0" >
   <img src="img/three.jpg" width="300" height="500" border="0" >
-  <img src="img/four.jpg" width="350" height="500" border="0" >
+  <img src="img/four.jpg" width="300" height="500" border="0" >
   <nav>
    <h2>
    旧人不知我近况，新人不知我过往；近况不该旧人知，过往不与新人讲。

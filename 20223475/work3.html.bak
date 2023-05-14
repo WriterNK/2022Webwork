@@ -5,6 +5,7 @@
   <style type="text/css">
 	body{
       background : url(https://p1.itc.cn/q_70/images03/20200630/9ea503c604514521b847a1c740987737.jpeg) ;
+	  background-size : 100% 100% ;
 	}
 	li{
      font-size : 30px ;

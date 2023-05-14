@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport"content="width=device-width,initial-scale=1">
+   <style type="text/css">
+	body{
+	font-size : 16px ;
+	}
+	div{
+	margin :1em auto;
+	border : 1px solid;
+	padding : 1em ;
+	margin : 0.5em ;
+	}
+	div#box1,div#box2,div#box3{
+	background : rgb(230,250,230) ;
+	border-radius : 1em ;
+	float : left ;
+	}
+	div#box2{
+	background : rgb(250,230,230) ;
+	float : right ;
+	}
+	p{
+	font-size : 1.5em ;
+	text-align : center ;
+	font-family : 楷体 ;
+	}
+	p.title{
+	background-color : rgba(200,200,200,0.2) ;
+	color : rgb(250,100,100) ;
+	font-size : 1.3em ;
+	text-shadow : 0.05em 0.04em rgb(0,0,0) ;
+	padding : 0.5em ;
+	border-radius : 0.5em ;
+	font-weight : bold ;
+	font-family : 黑体 ;
+	}
+	p.titlespan{
+	font-size : 0.6em ;
+	color : rgb(255,150,0) ;
+	}
+	p.comment{
+	font-size : 1.2em ;
+	color : blue ;
+	text-indent : 2em ;
+	line-height : 2em ;
+	text-align : left ;
+	}
+   </style>
+ </head>
+ <body>
+  <div id="box1">
+	<p class="title">
+	  鹿柴
+    <span>[唐]王维</span>
+    </p>
+	<p>
+	  空山不见人，
+	</p>
+	<p>
+	  但闻人语响。
+	</p>
+    <p>
+	  返景入深林，
+	</p>
+	<p>
+	  复照青苔上。
+	</p>
+   </div>
+  <p class="comment">
+   鹿柴 这首诗写一座人迹罕至的空山，一片古木参天的树林，意在创造一个空寂幽深的境界。第一句先正面描写空山的杳无人迹，侧重于表现山的空寂清冷。之后紧接第二句境界顿出，以局部的、暂时的“响”反衬出全局的、长久的空寂。第三、第四句由上幅的描写空山传语进而描写深林返照，由声而色。
+  </p>
+  <div id="box2">
+   <p class="title">
+     送元二使安西
+   <span>[唐]王维</span>
+   </p>
+   <p>
+     渭城朝雨浥轻尘，
+   </p>
+   <p>
+     客舍青青柳色新。
+   </p>
+   <p>
+     劝君更尽一杯酒，
+   </p>
+   <p>
+    西出阳关无故人。
+   </p>
+  </div>
+  <p class="comment">
+    这首诗描绘的是一种非常普遍的离别情景。它没有特殊的背景，却充满了深深的依恋和牵挂。它适合于大多数离别场合，因此被纳入乐府，成为了广为流传、久唱不衰的歌曲。“渭城朝雨浥轻尘，客舍青青柳色新。”这两句生动形象地写出了诗人对将要前往荒凉之地的友人元二的深深依恋和牵挂。诗的前两句描绘了春天的景象，却暗示了离别的悲伤。其中，“柳”和“留”谐音，是离别的象征，“轻尘”“客舍”也都暗示了旅行的目的，点出了送别的时间、地点和环境。后两句点明了主题是以酒饯别，诗人借分手时的劝酒，表达对友人深厚的情意。友人此行要去的安西，在今天的新疆库车县境，同时代的王之涣有“春风不度玉门关”的形容，何况安西更在玉门之外，其荒凉遥远可想而知。
+  </p>
+  <div id="box3">
+   <p class="title">
+    竹里馆
+    <span>[唐]王维</span>
+   </p>
+   <p>
+	独坐幽篁里，
+   <p>
+	弹琴复长啸。
+   <p>
+	深林人不知，
+   <p>
+	明月来相照。
+   </p>
+  </div>
+  <p class="comment">
+   竹里馆，假设这里有大量，介绍王维和古诗文内涵的文字，用于与卡片状的div发生混合排版关系。假设这里有大量，介绍王维和古诗文内涵的文字，用于与卡片状的div发生混合排版关系。假设这里有大量，介绍王维和古诗文内涵的文字，用于与卡片状的div发生混合排版关系。假设这里有大量，介绍王维和古诗文内涵的文字，用于与卡片状的div发生混合排版关系。假设这里有大量，介绍王维和古诗文内涵的文字，用于与卡片状的div发生混合排版关系。假设这里有大量，介绍王维和古诗文内涵的文字，用于与卡片状的div发生混合排版关系。
+  </p>
+ </body>
+</html>

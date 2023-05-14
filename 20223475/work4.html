@@ -2,39 +2,89 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <style type="text/css">
-	h1{
-     background-color : powderblue ;
-	 color : white ;
-	 font-size :50px ;
-	 height : 60px ;
-	 padding : 20px ;
-	 text-align : center ;
+	div{
+     border : 2px solid ;
+	 margin : 1em ;
+	 padding : 2em ;
 	}
-	h2{
-     background-color : rgb(216,191,216) ;
-	 color : white ;
-	 line-height : 50px ;
-	 font-size : 26px ;
-	 font-weight : bold ;
-	 letter-spacing : 10px ;
-	 margin : 20px ;
-	 padding : 15px ;
+	#box1{
+	  width : 200px ;
+	  height : 400px ;
+	}
+	#box2{
+	  width : 200px ;
+	  height : 400px ;
+      position : relative ;
+	  left : 300px ;
+	  top : -500px ;
+      background-color : cyan ;
+	  float : left ;
+	}
+	#box3{
+	  position : relative ;
+	  top : -200px ; 
+      width : 300px ;
+	  height : 400px ;
+	  top : -500px ;
+	  background-color : gray ;
+	  float : right ;
+	}
+	#box4{
+	  width : 200px ;
+	}
+    p{
+     font-size : 20px ;
+	}
+	h1{
+     font-size : 25px ;
+     font-weight : bold ;
+	 text-align : center ;
 	}
   </style>
  </head>
  <body>
-  <h1>
-   秦世纪
-  </h1>
-  <img src="img/one.jpg" width="300" height="500" border="0" >
-  <img src="img/two.jpg" width="300" height="500" border="0" >
-  <img src="img/three.jpg" width="300" height="500" border="0" >
-  <img src="img/four.jpg" width="300" height="500" border="0" >
-  <nav>
-   <h2>
-   旧人不知我近况，新人不知我过往；近况不该旧人知，过往不与新人讲。
-   </h2>
-  </nav>
+  <div id="box1" class="">
+	<h1>
+	 秦世纪
+	</h1>
+    <img src="img/one.jpg" width="200" height="350" border="0" alt="秦世纪"> 
+  </div>
+  <div id="box2" class="">
+	<h1>
+	 诗歌
+	</h1>	
+	<p>
+     If you were a teardrop;In my eye,
+     For fear of losing you,I would never cry.
+     And if the golden sun,Should cease to shine its light,
+     Just one smile from you,Would make my whole world bright.
+    </p>
+  </div>
+  <div id="box3" class="">
+	BOX3 
+   <div id="box4" class="">
+	BOX4
+	<p>
+	 Hold fast to dreams. 
+	 For if dreams die. 
+	 Life is a broken-winged bird.
+	 That can never fly.
+	 Hold fast to dreams. 
+	 For when dreams go.
+	 Life is a barren field. 
+	 Frozen only with snow. 
+    </p>
+   </div>
+  </div>
+  <div id="memu" class="">
+	memu
+	<input type="button" value="A" onclick="">
+	<input type="button" value="B" onclick="">
+	<input type="button" value="C" onclick="">
+	<input type="button" value="D" onclick="">
+	<input type="button" value="E" onclick="">
+  </div>
  </body>
 </html>
