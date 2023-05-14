@@ -9,32 +9,34 @@
     background-image:url("https://5b0988e595225.cdn.sohucs.com/images/20170908/235789cbf1814fc7ab3670aa2ef95d15.jpeg") ;
     height : 1000px ;
     width : 100% ;
-  
-    
-   }
-   p{
-    font-size : 32px ;
-    height : 96px ;
-	line-height : 88px ;
-    color : blue ;
-	text-align : center ;
-	background-color : yellow ;
    }
    h1{
     color : white ;
     text-align : center ;
    }
    a{
-    background-color : red ;
-    border : 0 ;
+    background-color : #32B5B5 ;
     padding : 10px ;
     margin : 10px ;
     color : black ;
-
+	text-decoration : none ;
+    border-radius : 15px ;
     }
    a:hover{
-    background-color : blue ;
+    background-color : pink ;
+	
     }
+   div.box{
+    font-size : 32px ;
+    height : 96px ;
+	line-height : 88px ;
+    color : blue ;
+	text-align : center ;
+     }
+	 #audio{
+	 color : #FFC90E ;
+	 font-size : 30px ;
+	 }
     </style>
   
  </head>
@@ -42,14 +44,51 @@
   <h1>
   谢文杰的作业
   </h1>
-  <h2>
-   <img src="img/myface.img.jpg" width="100" height="160" border="0" >
-  </h2>
-  <p>
-   <a href="第一次作业.html">第一次作业
-   </a>
-   <a href="第二次作业.html">第二次作业
-   </a>
-  </p>
+  <div id="audio" class="">
+	稻香：
+  </div>
+  <audio controls>
+	<source src="audio/稻香.mp3" type="audio/mpeg">
+  </audio>
+   <div id="" class="box">
+    <a href="第一次作业/第一次作业.html">
+	January
+    </a>
+   </div>
+   <div id="" class="box">
+    <a href="第二次作业/第二次作业.html">
+	February
+    </a>
+   </div>
+   <div id="" class="box">
+    <a href="第三次作业/第三次作业.html">
+	March
+    </a>
+   </div>
+   <div id="" class="box">
+    <a href="第四次作业/第四次作业.html">
+	April
+    </a>
+   </div>
+   <div id="" class="box">
+    <a href="第五次作业/第五次作业.html">
+	May
+    </a>
+   </div>
+   <div id="" class="box">
+    <a href="第六次作业/第六次作业.html">
+	June
+    </a>
+   </div>
+   <div id="" class="box">
+    <a href="第七次作业/第七次作业.html">
+	July
+    </a>
+   </div>
+   <div id="" class="box">
+    <a href="第八次作业/第八次作业.html">
+	August
+    </a>
+   </div>
  </body>
 </html>
