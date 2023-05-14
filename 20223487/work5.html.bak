@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>五一广告</title>
+  <style type="text/css">
+	#box1{
+	margin : 10px;
+	padding : 15px;
+	border : 1px solid;
+	border-radius : 20px;
+	background-color : pink;
+	}
+	#box2{
+	margin : 10px;
+	padding : 15px;
+	border : 1px solid;
+	border-radius : 20px;
+	background-color : purple;
+	}
+	div{
+	font-size : 20px;
+	font-family : "幼圆";
+	position : relative;
+	float : left;
+	background-color : yellow;
+	text-align : center;
+	width : 100%;
+	}
+  </style>
+ </head>
+ <body>
+  <div id="" class="">
+   <p>
+    <input type="button" value="难的" id="box1" onclick="">
+    <input type="button" value="语文" id="box2" onclick="">
+   </p>
+   <p>
+    <input type="button" value="难的" id="box1" onclick="">
+    <input type="button" value="数学" id="box2" onclick="">
+   </p>
+   <p>
+    <input type="button" value="难的" id="box1" onclick="">
+    <input type="button" value="英语" id="box2" onclick="">
+   </p>
+  </div>
+  <div id="" class="">
+   <p>
+    <input type="button" value="难的" id="box1" onclick="">
+    <input type="button" value="物理" id="box2" onclick="">
+   </p>
+   <p>
+    <input type="button" value="难的" id="box1" onclick="">
+    <input type="button" value="生物" id="box2" onclick="">
+   </p>
+   <p>
+    <input type="button" value="难的" id="box1" onclick="">
+    <input type="button" value="地理" id="box2" onclick="">
+   </p>
+  </div>
+ </body>
+</html>

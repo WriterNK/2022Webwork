@@ -21,8 +21,8 @@
 	a{
 	 margin : 25px;
 	 padding : 15px;
-	 border : 5px dotted green;
-	 border-style : dotted solid;
+	 border : 5px green;
+	 border : dotted solid;
 	 border-radius : 15px;
 	 text-align : justify;
 	 overflow : auto;
@@ -51,6 +51,7 @@
 	<a href="work2.html">第二周</a>
 	<a href="work3.html">第三周</a>
     <a href="work4.html">第四周</a>
+	<a href="work5.html">五一广告</a>
   </div>
  </body>
 </html>
