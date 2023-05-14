@@ -6,31 +6,49 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>20223491张益泽</title>
   <style type="text/css">
     
 	a{color:red;
 	magin:30px;
-	align:center;}
+	align:center;
+	text-decoration:none;}
 	a:hover{color:green;}
+	footer{
+	background-color:black;
+	color:white;
+	text-align:center;
+	letter-spacing:20px;}
+	body
+	{
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	}
+	#top{
+	text-align:left;
+	background-color:black;
+	position : fixed ;
+    width : ;
+	
+	
+	height : 40px ;
+	font-size : 30px ;
+	}
+
+
+
   </style>
  </head>
- <body url(https://logodix.com/logo/470216.png)>
-  <div id="" class="">
-   <a href="第一周作业.html">第一周web作业</a><br>
-   <a href="第二周作业.html">第二周web作业</a><br>
-   <a href="第三周作业.html">第三周web作业</a><br>
-   <a href="">第四周web作业</a><br>
-   <a href="第五周作业.html">第五周web作业</a><br>
-   <a href="">第六周web作业</a><br>
-   <a href="">第七周web作业</a><br>
-   <a href="">第八周web作业</a><br>
-   <a href="">第九周web作业</a><br>
-   <a href="">第十周web作业</a><br>
-   <a href="">第十一周web作业</a><br>
-   <a href="">第十二周web作业</a><br>
-   <a href="">第十三周web作业</a><br>
-   <a href="">第十四周web作业</a><br>
+ <body background="https://tse4-mm.cn.bing.net/th/id/OIP-C.UwjCFcW5QE-cEh5Nb-5sUgHaHe?pid=ImgDet&rs=1">
+  <footer>
+  张益泽的个人主页
+  </footer>
+ 
+  <div id="top" class="">
+   <a href="个人信息.html">个人信息</a><br> 
+   <a href="个人空间.html">个人空间</a><br>
   </div>
 
 
