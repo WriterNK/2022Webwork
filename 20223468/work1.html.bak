@@ -1,8 +1,36 @@
   <!doctype html>
   <head>
   <title>Teacher L The second lesson</title> 
+  <style type="text/css">
+	body{
+	font-family : FangSong ;
+	}
+	#sh{
+	position : fixed ;
+	text-align : left ;
+    background : black ;
+	height : 40px ;
+	font-size : 30px ;
+	left : 0 ;
+	top : 0 ;
+	width : 100% ;
+ 	}
+	a{
+	text-decoration : none ;
+	color : white ;
+    font-size : 20px ; 
+	}
+	a:hover{
+	color : #44FFC1 ;
+	}
+  </style>
   </head>
   <body bgcolor="black" text="white">
+    <div id="sh">
+  　 <a class="a1" href="index.html" >ENIST</a>
+   　<a href="myid.html">个人信息</a>
+   　<a href="myspace.html">个人空间</a>
+    </div>
   <h1>HTML页面的组织结构</h1>
   <p>
   <li><font size=4>基本结构和一些注意的点</li>

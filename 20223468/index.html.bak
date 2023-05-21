@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
  <head>
@@ -8,9 +7,8 @@
   <style type="text/css">
 	body{
 	background : url(https://img.3dmgame.com/uploads/images/news/20230213/1676251607_696089.jpg) ;
-	background-size : 100% ;
-     background-repeat : no-repeat ; 
-	font-family : FangSong ;
+	background-size : 1920px 1080px ;
+	font-family : FangSong ; 
 	}
 	#sh{
 	position : fixed ;
@@ -63,8 +61,9 @@
  <body>
   <div id="sh">
   　 <a class="a1" href="index.html" >ENIST</a>
-   　<a href="myid.html">个人信息</a>
    　<a href="myspace.html">个人空间</a>
+     <a href="mytopic.html">我的出题</a>
+	 <a href="myid.html">个人信息</a>
   </div>
 
   <div id="box1">
