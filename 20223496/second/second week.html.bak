@@ -108,10 +108,10 @@
 	</p>
   </div>
   <div id="box2" class="">
-	<img src="../img/atmfm1.jpg" width="500px" height="600px" border="0" alt="">
+	<img src="img/atmfm1.jpg" width="500px" height="600px" border="0" alt="">
   </div>
   <div id="box3" class="">
-	<img src="../img/atmfm2.jpg" width="500px" height="600px" border="0" alt="">
+	<img src="img/atmfm2.jpg" width="500px" height="600px" border="0" alt="">
   </div>
   </div>
   </body>
