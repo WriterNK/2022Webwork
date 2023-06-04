@@ -1,0 +1,684 @@
+* {
+    margin: 0px;
+    padding: 0%;
+    background: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 99vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: hidden;
+    min-width: 1200px;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background: black;
+}
+
+.header img {
+    margin-top: 15px;
+    display: block;
+    float: left;
+}
+
+.display-btn {
+    top: 18px;
+    right: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background: lightsteelblue;
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.guanyu {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.guanyu1 {
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    width: 5vw;
+    padding-right: 4px;
+}
+
+.guanyu2 {
+    display: none;
+    min-width: 100%;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+.guanyu2 a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    text-decoration: none;
+    padding: 12px;
+    text-align: center;
+}
+
+.guanyu:hover .guanyu2 {
+    display: block;
+}
+
+.guanyu1:hover {
+    color: red;
+}
+
+.guanyu2 a:hover {
+    color: red;
+}
+
+.moshi {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.moshi1 {
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    width: 5vw;
+    padding-right: 9px;
+}
+
+.moshi2 {
+    display: none;
+    min-width: 100%;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+.moshi2 a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    text-decoration: none;
+    padding: 12px;
+    text-align: center;
+}
+
+.moshi:hover .moshi2 {
+    display: block;
+}
+
+.moshi1:hover {
+    color: red;
+}
+
+.mohsi2 a:hover {
+    color: red;
+}
+
+.saiji {
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: black;
+    font-size: 20px;
+    border: none;
+    width: 5vw;
+    color: white;
+    cursor: pointer;
+}
+
+.saiji:hover {
+    color: red;
+}
+
+.tongxin {
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: black;
+    font-size: 20px;
+    border: none;
+    width: 8vw;
+    color: white;
+    cursor: pointer;
+}
+
+.tongxin:hover {
+    color: red;
+}
+
+.zhizuo {
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: black;
+    font-size: 20px;
+    border: none;
+    width: 8vw;
+    color: white;
+    cursor: pointer;
+}
+
+.zhizuo:hover {
+    color: red;
+}
+
+.display-btn:hover {
+    color: white;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+#display:checked~.container {
+    display: block;
+}
+
+.container {
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: whitesmoke;
+    width: 350px;
+    height: 400px;
+    padding: 30px;
+    position: absolute;
+    border-radius: 30px;
+    opacity: 90%;
+    background-image: url("p.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.close-btn {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    background: none;
+    transition: 0.2s;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+.container h1 {
+    background: none;
+    text-align: center;
+    margin-top: 20px 0;
+    color: black;
+}
+
+form {
+    background: none;
+}
+
+label {
+    background: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    background: none;
+    display: block;
+    width: 90%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.container button {
+    display: block;
+    margin-top: 80px;
+    width: 95%;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    background: black;
+    outline: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    background: lightseagreen;
+}
+
+form a {
+    font-weight: bold;
+    padding-top: 40px;
+    color: lightseagreen;
+    background: none;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+form a:hover {
+    color: rgb(13, 84, 81);
+}
+
+.forgot {
+    background: none;
+    text-align: center;
+    margin: 40px 5px;
+    color: black;
+}
+
+body .container1 {
+    width: 99vw;
+    height: 100vh;
+    margin: 0;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.container1 section {
+    width: 99vw;
+    height: 100vh;
+}
+
+.container1 section:nth-child(2) {
+    height: 90vh;
+}
+
+.container1 section:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg1.jpg);
+    width: 99vw;
+    height: 89vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container1 section:nth-child(1) a {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    font-family: SimHei;
+    transition: 0.2s;
+    border-radius: 30px;
+    background-color: black;
+    text-decoration: none;
+}
+
+.container1 section:nth-child(1) a:hover {
+    background: lightseagreen;
+}
+
+.box {
+    width: 95vw;
+    height: 70vh;
+    display: block;
+    float: left;
+    clear: both;
+}
+
+.title {
+    position: relative;
+    color: white;
+    margin-left: 650px;
+    top: 5%;
+    width: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.ash a {
+    display: block;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 200px;
+    float: left;
+}
+
+.ash p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ballistic a {
+    display: block;
+    position: relative;
+    margin-top: 88px;
+    margin-left: 90px;
+    float: left;
+}
+
+.ballistic p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.bangalore a {
+    display: block;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 90px;
+    float: left;
+}
+
+.bangalore p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.bloodhound a {
+    display: block;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 75px;
+    float: left;
+}
+
+.bloodhound p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.catalyst a {
+    display: block;
+    position: relative;
+    margin-top: 72px;
+    margin-left: 90px;
+    float: left;
+}
+
+.catalyst p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.caustic a {
+    display: block;
+    position: relative;
+    margin-top: 78px;
+    margin-left: 90px;
+    float: left;
+}
+
+.caustic p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.crypto {
+    clear: both;
+}
+
+.crypto a {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 200px;
+    float: left;
+}
+
+.crypto p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.fuse a {
+    display: block;
+    position: relative;
+    margin-top: 12px;
+    margin-left: 90px;
+    float: left;
+}
+
+.fuse p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.horizon a {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    float: left;
+}
+
+.horizon p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.mirage a {
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 80px;
+    float: left;
+}
+
+.mirage p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.seer a {
+    display: block;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 86px;
+    float: left;
+}
+
+.seer p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.octane a {
+    display: block;
+    position: relative;
+    margin-top: 17px;
+    margin-left: 90px;
+    float: left;
+}
+
+.octane p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.more {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 60px;
+    margin-bottom: 100px;
+    margin-left: 670px;
+    text-decoration: none;
+}
+
+.more button {
+    color: white;
+    background-color: lightsteelblue;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    right: 45%;
+    height: 50px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.box a p:hover {
+    color: red;
+}
+
+
+.more button:hover {
+    background-color: lightseagreen;
+    color: black;
+}
+
+.container1 section:nth-child(3) {
+    background-color: rgb(255, 255, 255);
+}
+
+.title1 {
+    position: relative;
+    top: 0;
+    display: block;
+    left: 46%;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: default;
+    background-color: rgb(255, 255, 255);
+    clear: both;
+    color: black;
+}
+
+.box1 {
+    width: 600px;
+    height: 75vh;
+    display: block;
+    float: left;
+    clear: both;
+    margin-top: 200px;
+    margin-right: 600px;
+}
+
+.box2 {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+}
+
+.news-1 {
+    margin-left: 200px;
+    float: left;
+    cursor: pointer;
+}
+
+.news-2 {
+    margin-left: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.news-3 {
+    margin-left: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.news-4 {
+    margin-left: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.news-5 {
+    margin-left: 200px;
+    float: left;
+    cursor: pointer;
+    clear: both;
+    margin-top: 50px;
+}
+
+.news-6 {
+    margin-left: 100px;
+    float: left;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.news-7 {
+    margin-left: 100px;
+    float: left;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.news-8 {
+    margin-left: 100px;
+    float: left;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.box2 button {
+    margin-top: 50px;
+    float: left;
+    clear: both;
+    position: relative;
+    left: 48%;
+    font-size: 20px;
+    width: 90px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.box2 button:hover {
+    background-color: lightseagreen;
+}
