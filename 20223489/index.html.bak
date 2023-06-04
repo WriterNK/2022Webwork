@@ -1,16 +1,77 @@
+
 <!doctype html>
+<html lang="en">
  <head>
-  
-  <title>20223489李昱鹏</title>
+  <meta charset="UTF-8">
+  <title>李昱鹏的页面</title>
+  <meta name="viewport"content="width=device-width,initial-scale=1.0">
+   <style type="text/css">
+	a{
+	 background-color : Light blue ;
+	 color : white ;
+	 text-decoration : none ;
+	 line-height : 80px ;
+	 font-size : 30px ;
+	 font-weight : bold ;
+	 letter-spacing : 10px ;
+	 margin : 10px ;
+	 padding : 15px ;
+	 border-radius : 15px ;
+	 box-shadow : 2px 2px 2px white ;
+	}
+	a:hover{
+	 background-color :  blue ;
+	 color : white ;
+	}
+	h1{
+	 background-color : blue ;
+	 color : white ;
+	 font-size :50px ;
+	 height : 60px ;
+	 padding : 20px ;
+	 text-align : center ;
+	}
+	body{
+	 background : url(https://img1.baidu.com/it/u=1960110688,1786190632&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=281) ;
+	 background-size : 100% 100% ;
+	}
+	footer{
+	  background-color : gray ;
+	  color : white ;
+	  text-align : center ;
+	  height : 100px ;
+	  font-size : 50px ;
+      padding : 10px ;
+	  letter-spacing : 10px ;
+	  bottom: 0 ;
+	}
+   </style>
  </head>
  <body>
-  <a href="周杰伦帅照.html" target="_blank">2023.2.13第一周</a><br>
-  <a href="创建HTML文件1.html" target="_blank">2023.2.19第二周</a><br>
-  <a href="作业.html" target="_blank">2023.2.19第二周</a><br>
-  <a href="web.html" target="_blank">2023.2.19第二周</a><br>
-  <a href="20223489.html" target="_blank">2023.2.26第三周</a><br>
-  <a href="CSS基础（HTML的容器元素）.html" target="_blank">2023.3.19第五周</a><br>
-  <a href="互联网和web服务.html" target="_blank">2023.3.19第五周</a><br>
-  <a href="第六周作业.html" target="_blank">2023.3.19第六周</a><br>
+  <h1>
+   李昱鹏的页面
+  </h1>
+  <div>
+   <p>
+    <a href = "周杰伦帅照.html" target="_blank" >2023.2.13第一周</a>   
+   </p>
+   <p>
+    <a href = "创建HTML文件1.html" target="_blank" >2023.2.19第二周</a>
+    <a href = "作业.html" target="_blank" >2023.2.19第二周</a>
+	<a href = "web.html" target="_blank" >2023.2.19第二周</a><br>
+   </p> 
+   <p>
+	<a href = "20223489.html" target="_blank" >2023.2.26第三周</a><br>
+   </p>
+   <p>	
+    <a href = "CSS基础（HTML的容器元素）.html" target="_blank" >2023.3.19第五周</a>
+	<a href = "互联网和web服务.html" target="_blank" >2023.3.19第五周</a><br>
+   </p>
+   <p>    
+	<a href = "第六周作业.html" target="_blank" >2023.3.26第六周</a><br>
+   </p>
+  </div> 
+  <footer>李昱鹏的个人主页</footer>
  </body>
 </html>
+
