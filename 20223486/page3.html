@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <title>page3</title>
   <style type="text/css">
+    .content{
+	font-size : 1.6em ;
+	margin: 150px ;
+	color : #3c3c3c ;
+	font-weight : 700 ;
+	font-family : "幼圆" ;
+	}
 	input:focus{
     color : #40e0b0 ;
     background-color : pink ;
@@ -11,41 +18,28 @@
 	li{
 	list-style : none ;
 	}
-	#box1{
-	margin : 0 auto ;
-	
-	width : 500px ;
-	
-	}
-	#box1 ul li{
-	display : inline-block ;
-	float : left ;
-	border : 1px solid black ;
-    transition-duration : 2s ;
-	background-color : black ;
-	}
-	#box1 ul li:hover{
-	border : 20px solid pink ;
-	background-color : yellow ;
+	body{
+	background-image : url(img/beijin.jpg);
 	}
   </style>
  </head>
  <body>
-  表单域就是
-  <strong>一个区域</strong>
-  <form method="post" action="" name="">
-	name:<input type="text" maxlength="6" value="yourname"><br>
-	key:<input type="password" maxlength="8"><br>
-	sex:<input type="radio" name="sex" id="man"> <label for="man">m</label>
+ <div id="" class="content">
+	表单域就是
+   <strong>一个区域</strong>
+   <form method="post" action="" name="">
+	 name:<input type="text" maxlength="6" value="yourname"><br>
+	 key:<input type="password" maxlength="8"><br>
+	 sex:<input type="radio" name="sex" id="man"> <label for="man">m</label>
 	    <input type="radio" name="sex" id="girl"> <label for="girl">g</label><br>
-	hobby:<label for="eat">eat</label><input type="checkbox" name="" value="" id="eat">
+	 hobby:<label for="eat">eat</label><input type="checkbox" name="" value="" id="eat">
 	      <label for="sleep">sleep</label><input type="checkbox" id="sleep">
 		  <label for="play">play</label><input type="checkbox" id="play"><br>
-    <input type="submit" value="free registration"> 
-	<input type="button" value="no mean button"><br>
-	<input type="reset" value="rewrite"><br>
-	上传文件:<input type="file"><br>
-	你来自哪:<select name="">
+     <input type="submit" value="free registration"> 
+	 <input type="button" value="no mean button"><br>
+	 <input type="reset" value="rewrite"><br>
+	 上传文件:<input type="file"><br>
+	 你来自哪:<select name="">
 		<option value="" selected>北京
 		<option value="">上海
 		<option value="">河北
@@ -61,16 +55,7 @@
     今日反馈:
 	<textarea name="" rows="" cols="">
 	</textarea>
-  </form>
-
-  <div id="box1" class="">
-	<ul>
-		<li><a href="#"><img src="img/adidas.jpg" width=""></a></li>
-		<li><a href="#"><img src="img/man.jpg"></a></li>
-	</ul>
-  </div>
-  <div id="" class="banner">
-	250
+   </form>
   </div>
  </body>
 </html>

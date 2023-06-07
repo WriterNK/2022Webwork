@@ -2,16 +2,116 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>������ҳ</title>
- <style type="text/css">
-	a{
-	font-size : 50px ;
-	}
- </style>
+  <title>个人网页</title>
+  <style type="text/css">
+   body{
+   background-image : url(img/bj.jpg) ;
+   }
+   li{
+   list-style : none ;
+   }
+   a{
+   text-decoration : none ;
+   }
+   header{
+   height : 80px ;
+   background-color : #33ffff ;
+   font-size : 3em ;
+   text-align : center ;
+   padding-top : 30px ;
+   font-weight : 700 ;
+   border : 3px solid #9900ff ; 
+   border-radius : 20px ;
+   }
+   .nav{
+   width : 100% ;
+   margin : 0 auto ;
+   text-align : center ;
+   }
+   .nav ul li{
+   display : inline-block ;
+   height : 50px ;
+   width : 10% ;
+   margin : 0 auto ;
+   background-color : #00ff66 ;
+   border-radius : 10px ;
+   }
+   .nav ul li a{
+   font-size : 30px ;
+   color : white ;
+   }
+   .nav ul li a:hover{
+   color : yellow ;
+   background-color : skyblue ;
+   }
+   iframe{
+   display : block ;
+   width : 90% ;
+   height : 300px ;
+   margin : 5px auto ;
+   }
+   .zt{
+   height : 500px ;
+   }
+   .zt .left{
+   width : 50% ;
+   height : 500px ;
+   float : left ;
+   font-size : 22px ;
+   color : white ;
+   }
+   .zt .right{
+   width : 50% ;
+   float : left ;
+   height : 500px ;
+   font-size : 25px ;
+   color : #ffff00 ;
+   }
+   .zt .right img{
+   float : left ;
+   margin-right : 10px ;
+   }
+   footer{
+   display : block ;
+   margin-top : 25px ;
+   height : 60px ;
+   font-size : 22px ;
+   background-color : #919191 ;
+   text-align : center ;
+   }
+  </style>
  </head>
  <body>
-  <a href="work1.html">webwork1</a>
-  <a href="work2.html">webwork2</a>
-  <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.mH9YLFEL5YdVxJM82mjVJQHaEo?w=294&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+  <header>
+   麦克阿宇的个人主页
+  </header>
+  <div id="" class="nav">
+	<ul>
+		<li><a href="work1.html" target="aa">wrok1</a></li>
+		<li><a href="work2.html" target="aa">work2</a></li>
+		<li><a href="work3.html" target="aa">work3</a></li>
+		<li><a href="work4.html" target="aa">work4</a></li>
+		<li><a href="work5.html" target="aa">work5</a></li>
+	</ul>
+  </div>
+  <div id="" class="zt">
+	<div id="" class="left">
+	 <iframe name="aa" src="img/xinhai.jpg" >
+	 </iframe>
+		《你的名字。》是新海诚执导，神木隆之介、上白石萌音担任主要配音，Comix Wave Films制作的一部原创日本动画电影，于2016年8月26日在日本上映。中国内地于2016年12月2日上映。影片讲述了男女高中生在梦中相遇，并寻找彼此的故事。中国大陆于2017年8月26日全网首播。中文名你的名字。原版名称君の名は.别名Your Name.动画制作Comix Wave Films类型爱情、奇幻。
+	</div>
+	<div id="" class="right">
+		<img src="img/myface.jpg" width="" height="" border="0" alt="">
+         林鹏宇
+         江西科技大学元宇宙产业学院
+         22级计科2班
+         本人爱好音乐绘画书法，喜欢写诗，喜欢打王者
+         我利用课余时间广泛地涉猎了大量书籍，不但充实了自己，也培养了自己多方面的技能。更重要的是，严谨的学风和端正的学习态度塑造了我朴实、稳重、创新的性格特点。此外，我还积极地参加各种社会活动，抓住每一个机会，锻炼自己。大学四年，我深深地感受到，与优秀学生共事，使我在竞争中获益;向实际困难挑战，让我在挫折中成长。祖辈们教我勤奋、尽责、善良、正直;中国人民大学培养了我实事求是、开拓进取的作风。 我热爱贵单位所从事的事业，殷切地期望能够在您的领导下，为这一光荣的事业添砖加瓦;并且在实践中不断学习、进步。
+	</div>
+  </div>
+  <footer>
+   22江西科技师范大学元宇宙产业学院计算机科学与技术2班 <br>
+   完成于2023-6-6
+   </footer>
  </body>
 </html>
