@@ -48,7 +48,7 @@
     float : left ;  
 	font-family : KaiTi ;
 	color : black ;
-    overflow : hidden ;
+    overflow : scroll ;
     }  
 
     #boxRight{  

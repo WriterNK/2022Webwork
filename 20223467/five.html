@@ -1,140 +1,113 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="login.css">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes">
+	<meta charset="UTF-8">
+	<style type="text/css">
+		body {
+			font-family: FangSong;
+		}
+
+		#sh {
+			position: fixed;
+			text-align: left;
+			background: black;
+			height: 40px;
+			font-size: 30px;
+			left: 0;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+		}
+
+		a:hover {
+			color: #44FFC1;
+		}
+
+		#box1 {
+			position: relative;
+			background-image: url(img/back1.png);
+			background-size: 100%;
+			background-repeat: no-repeat;
+			height: 1080px;
+			top: -28px;
+		}
+
+		#box1 div {
+			padding: 50px;
+		}
+
+		#box2 {
+			font-size: 50px;
+			position: relative;
+			top: 30%;
+			left: 10%;
+		}
+
+		#box3 {
+			font-size: 50px;
+			position: relative;
+			top: 35%;
+			left: 10%;
+		}
+
+		#box4 {
+			font-size: 50px;
+			position: relative;
+			top: 40%;
+			left: 10%;
+		}
+
+		#a1 {
+			font-size: 50px;
+			color: #36AFFF;
+			font-family: SimHei;
+			font-weight: bold;
+		}
+
+		#a2 {
+			font-size: 50px;
+			color: black;
+			font-family: SimHei;
+			font-weight: bold;
+		}
+	</style>
+	<title>五一作业</title>
 </head>
 
 <body>
-    <div class="header">
-        <img src="1.jpg" height="40px" width="200px">
-        <div class="guanyu">
-            <button class="guanyu1">关于</button>
-            <div class="guanyu2">
-                <a href="#">剧情</a>
-                <a href="#">地图</a>
-                <a href="#">常见问题</a>
-            </div>
-        </div>
-        <div class="moshi">
-            <button class="moshi1">模式</button>
-            <div class="moshi2">
-                <a href="#">大逃杀</a>
-                <a href="#">团队死斗</a>
-                <a href="#">控制</a>
-                <a href="#">快速直击</a>
-            </div>
-        </div>
-        <button class="saiji">赛季</button>
-        <button class="tongxin">战斗通行证</button>
-        <button class="zhizuo">制作团队</button>
-        <input type="checkbox" id="display">
-        <label for="display" class="display-btn">登录</label>
-        <div class="container">
-            <label for="display" class="close-btn" title="close">&times;</label>
-            <h1>登陆账号</h1>
-            <form action="#">
-                <label>账号</label>
-                <input type="text">
-                <label>密码</label>
-                <input type="password">
-                <a href="#">忘记密码</a>
-                <button>登录</button>
-                <div class="forgot">
-                    <a href="#">注册账号</a>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class="container1">
-        <section>
-            <a href="#">欢迎来到Apex Legends</a>
-        </section>
-        <section>
-            <a href="#" id="page-2" class="title">英雄列表</a>
-            <div class="box">
-                <div class="ash">
-                    <a href="#"><img src="ash.png" width="100px">
-                        <p>艾许</p>
-                    </a>
-                </div>
-                <div class="ballistic">
-                    <a href="#"><img src="ballistic.png" width="100px">
-                        <p>弹道</p>
-                    </a>
-                </div>
-                <div class="bangalore">
-                    <a href="#"><img src="bangalore.png" width="100px">
-                        <p>班加罗尔</p>
-                    </a>
-                </div>
-                <div class="bloodhound">
-                    <a href="#"><img src="bloodhound.png" width="100px">
-                        <p>寻血猎犬</p>
-                    </a>
-                </div>
-                <div class="catalyst">
-                    <a href="#"><img src="catalyst.png" width="100px">
-                        <p>卡特莉丝</p>
-                    </a>
-                </div>
-                <div class="caustic">
-                    <a href="#"><img src="caustic.png" width="100px">
-                        <p>侵蚀</p>
-                    </a>
-                </div>
-                <div class="crypto">
-                    <a href="#"><img src="crypto.png" width="100px">
-                        <p>密客</p>
-                    </a>
-                </div>
-                <div class="fuse">
-                    <a href="#"><img src="fuse.png" width="100px">
-                        <p>暴雷</p>
-                    </a>
-                </div>
-                <div class="horizon">
-                    <a href="#"><img src="horizon.png" width="100px">
-                        <p>地平线</p>
-                    </a>
-                </div>
-                <div class="mirage">
-                    <a href="#"><img src="mirage.png" width="100px">
-                        <p>幻象</p>
-                    </a>
-                </div>
-                <div class="seer">
-                    <a href="#"><img src="seer.png" width="100px">
-                        <p>希尔</p>
-                    </a>
-                </div>
-                <div class="octane">
-                    <a href="#"><img src="octane.png" width="100px">
-                        <p>动力小子</p>
-                    </a>
-                </div>
-            </div>
-            <a href="#" class="more"><button>更多英雄</button></a>
-        </section>
-        <section>
-            <a href="#" class="title1">
-                新闻资讯
-            </a>
-            <div class="box2">
-                <img src="news1.jpg" width="200px" height="175px" class="news-1">
-                <img src="news2.jpg" width="200px" height="175px" class="news-2">
-                <img src="news3.jpg" width="200px" height="175px" class="news-3">
-                <img src="news4.jpg" width="200px" height="175px" class="news-4">
-                <img src="news-5.jpg" width="200px" height="175px" class="news-5">
-                <img src="news-6.jpg" width="200px" height="175px" class="news-6">
-                <img src="news-7.jpg" width="200px" height="175px" class="news-7">
-                <img src="news-8.jpg" width="200px" height="175px" class="news-8">
-                <button class="morenew">更多新闻</button>
-            </div>
-        </section>
-    </div>
+	<div id="sh">
+		　 <a class="a1" href="index.html" target="_blank">ENIST</a>
+		　<a href="myspace.html">私人空间</a>
+		<a href="mypractice.html">我的实训</a>
+		<a href="mytopic1.html">我的出题</a>
+	</div>
+	<div id="box1">
+		<div id="box2">
+			<a id="a1" href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">B站大会员</a><a id="a1"
+				href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">148RMB</a>
+			<a id="a2" href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">连续包年</a><a id="a2"
+				href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">原价248RMB</a>
+		</div>
+		<div id="box3">
+			<a id="a1" href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">B站大会员</a><a id="a1"
+				href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">45RMB</a>
+			<a id="a2" href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">连续包季</a><a id="a2"
+				href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">原价98RMB</a>
+		</div>
+		<div id="box4">
+			<a id="a1" href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">B站大会员</a><a id="a1"
+				href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">15RMB</a>
+			<a id="a2" href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">连续包月</a><a id="a2"
+				href="https://account.bilibili.com/big?spm_id_from=333.1239.0.0">原价48RMB</a>
+		</div>
+	</div>
 </body>
 
 </html>

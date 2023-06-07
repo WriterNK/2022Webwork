@@ -1,53 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-   <meta charset="">
-   <title>
-   </title>
-   <style type="text/css">
-   body{background-image:url(https://kkimgs.yisou.com/ims?kt=url&at=ori&key=aHR0cDovL2luZXdzLmd0aW1nLmNvbS9uZXdzYXBwX21hdGNoLzAvMTEwMDU5Njk1NTAvMC5qcGc=&sign=yx:o3qKPjkgC4uMtv1vmwt7fDKp06o=&tv=0_0)
-                                      
-   }
-   h1{
-   background : #800000 ;
-   text-align : center ;
-   }
-   
-   a{background-color : #800080;
-   color : white ;
-   text-decoration: none ;
-   margin : 20px ;
-   padding : 15px ;
-   }
 
- a:hover{background-color : red ;
-   } 
-  footer{height: 100px;
-            width: 100%;
-            background-color: blue;
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            color : black;
-            text-align: center;
-         }
-   </style>
-  </head>
- <body>
-  <h1>
-   WebHomework
-  </h1>
-   <nav>
-     <ul>
-      <a href="work1.html"> work1</a>
-      <a href="work2.html">work 2</a>
-      <a href="work3.html">work 3</a>
-      <a href="work4.html"> work4</a>
-      <a href="work5.html">work5</a>
-    </ul>
-   </nav>
-  <img src="img/myface.jpg"  width="100"  height="150">
-   <footer>戈玉轩个人网页</footer>
- </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人空间</title>
+  <style>
+    * {
+      margin=0;
+      padding=0;
+    }
+
+    #title {
+      background-color: bisque;
+      height: 100px;
+      text-align: center;
+      font-size: 50px;
+      text-shadow: 2px 2px orange;
+      line-height: 100px;
+    }
+
+    a {
+      text-decoration: none;
+      color: yellow;
+      background-color: lightskyblue;
+      font-size: 20px;
+      border: 2px solid blue;
+      padding: 20px 4%;
+      border-radius: 8px;
+    }
+
+
+
+    a:hover {
+      background-color: gray;
+      color: black;
+
+    }
+
+
+    #nav {
+      border: 2px solid black;
+      height: 80px;
+      text-align: center;
+      line-height: 80px;
+
+    }
+
+
+
+    #left {
+      float: left;
+      width: 50%;
+      height: 1000px;
+      background-image: url(img/stars.webp);
+      color: darksalmon;
+
+
+    }
+
+    iframe {
+      height: 500px;
+      width: 50%;
+
+    }
+
+    #right {
+      float: left;
+      width: 50%;
+      height: 1000px;
+      background-image: url(img/child.jpg);
+      font-size: 20px;
+      color: white;
+
+    }
+
+    #face {
+      float: left;
+      background-image: url('img/myface.jpg');
+      background-position: center;
+      height: 133px;
+      width: 100px;
+      position: relative;
+      border: 2px solid white;
+      top: 0px;
+      right: 0px;
+      font-size: 10px;
+
+    }
+
+    #footer {
+      float: left;
+      background-color: chocolate;
+      height: 80px;
+      width: 100%;
+      line-height: 20px;
+      font-size: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="title">
+    戈玉轩个人主页
+  </div>
+  <div id="nav">
+
+
+    <a href="work1.html" target="me">work1</a>
+    <a href="work2.html" target="me">work2</a>
+    <a href="work3.html" target="me">work3</a>
+    <a href="work4.html" target="me">work4</a>
+    <a href="work5.html" target="me">work5</a>
+
+  </div>
+  <div id="left">
+    <iframe src="" name="me"></iframe>
+    <h1>小重山·昨夜寒蛩不住鸣</h1>
+    <p>[宋]岳飞</p>
+
+    <p> 昨夜寒蛩不住鸣。惊回千里梦，已三更。起来独自绕阶行。人悄悄，帘外月胧明。</p>
+
+    <p>白首为功名。旧山松竹老，阻归程。欲将心事付瑶琴。知音少，弦断有谁听？</p>
+    <h1>青玉案·元夕</h1>
+    <p>[宋]辛弃疾</p>
+
+    <p>东风夜放花千树，更吹落、星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。</p>
+    <p>蛾儿雪柳黄金缕，笑语盈盈暗香去。众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。</p>
+  </div>
+  <div id="right">
+    <div id="face">
+      22计科2班戈玉轩
+    </div>
+    <p>我是戈玉轩，来自江西省吉安市新干县</p>
+    <p>小学就读于七琴镇中心小学</p>
+    <p>初中就读于新干三中</p>
+    <p>高中就读于新干二中</p>
+    <p>现就读于江西科技师范大学元宇宙产业学院</p>
+    <p>时间是一条河,过了河有美丽的繁星</p>
+
+
+  </div>
+  <div id="footer">
+    <p>江西科技师范大学元宇宙产业学院</p>
+    <p>计算机科学与技术专业二班戈玉轩完成于2023-6-7</p>
+  </div>
+</body>
+
 </html>
- 
