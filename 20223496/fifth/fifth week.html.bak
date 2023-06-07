@@ -10,18 +10,18 @@
   <style type="text/css">
 	
 	h1{
-	 font-size : 4vw ;
+	 font-size : 48px ;
 	 text-align : center ;
 	 background-color : #377E47 ;
 	 width : 60% ;
-	 padding : 0.8vw ;
+	 padding : 10px ;
 	 color : white ;
 	}
 	footer{
 	 text-align : right ;
 	}
 	#tip{
-	 font-size : 1vw ;
+	 font-size : 12px ;
 	}
 	a{
 	 width : 100% ;
@@ -29,8 +29,8 @@
 	 color : black ;
 	 display : block;
 	 text-align : center ;
-	 padding-top : 0.8vw ;
-	 padding-bottom : 0.8vw ;
+	 padding-top : 10px ;
+	 padding-bottom : 10px ;
 	 background-color : #F6FAD9 ;
 	}
 	a:hover {

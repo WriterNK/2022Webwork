@@ -38,7 +38,7 @@
 	 background-color: #FCFBE1;
 	 border: none;
      color: white;
-     padding: 2% 3% ;
+     padding: 2% 3%;
      text-align: center;
      text-decoration: none;
      display: inline-block;
