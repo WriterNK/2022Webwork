@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>用户信息框</title>
+
 <style type="text/CSS">
     #box{
         width:400px;
@@ -12,6 +12,7 @@
         background-color:aquamarine;
     }
 </style>
+</head>
 <body>
     <div id="box">
         <form action="http://www.baidu.com" method="post">
@@ -20,6 +21,11 @@
         <p><input type="submit" value="登录"></p>
         <p><input type="reset" value="重置"></p>
         </form>
+        <div>你的性别</div>
+        <input type="radio" name="a" id="man">
+        <label for="man">男</label>
+        <input type="radio" name="a" id="woman">
+        <label for="woman">女</label>
     </div>
 </body>
 </html>
