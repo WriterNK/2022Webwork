@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>20223469</title>
+  <style type="text/css">
+	body{
+	background-image: url("https://pic2.zhimg.com/v2-a65b9a6cc683ea59d2146e4cb6da5bd1_r.jpg");
+	background-repeat:no-repeat;
+	background-position : center;
+	background-size : 100%;
+	}
+	h2{
+    font-size: 50px; 
+    color:#050;
+	text-align: center;
+	}
+	a{
+	font-size: 20px;
+	 
+	}
+	a:hover{background-color: #500;
+	}
+	a:visited{background-color:  #086;
+	}
+	footer{
+	font-size:25px;
+	color: #3079;
+	text-align:right;
+	}
+  </style>
+ </head>
+ <h2>龚俊键的Web作业</h2>
+ <body >
+  <nav>
+   <ul>
+     <li><a href="./work1.html">First</a></li>
+     <li><a href="20223469.html">Second</a></li>
+     <li><a href="20223469.html">Third</a></li>
+     <li><a href="20223469.html">Fourth</a></li>
+     <li><a href="20223469.html">Fifth</a></li>
+     <li><a href="20223469.html">Sixth</a></li>
+     <li><a href="20223469.html">Seventh</a></li>
+     <li><a href="20223469.html">Eightth</a></li>
+     <li><a href="20223469.html">Ninth</a></li>
+     <li><a href="20223469.html">Tenth</a></li>
+     <li><a href="20223469.html">Eleventh</a></li>
+     <li><a href="20223469.html">Twelfth</a></li>
+     <li><a href="20223469.html">Thirteenth</a></li>
+     <li><a href="20223469.html">Fourteenth</a></li>
+   </nav>
+    </ul>
+
+  <div>
+    <footer>江西科技师范大学计科二班</footer>
+  </div>
+	
+
+ </body>
+</html>
