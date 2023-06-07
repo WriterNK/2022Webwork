@@ -2,43 +2,43 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <meta name="viewport"content="width=device-width,initial-scale=1.0">
-  <title>长沙旅游攻略</title>
-  <style type="text/css">
+  <title>蛋仔岛</title>
+   <style type="text/css">
 	body{
-	 background-color : #FFF5EE ;
+	 background-image : url("img/seven.jpg") ;
+	 background-size : 100% ;
 	}
-	h1{
-	 font-size : 50px ;
-	 text-align : center ;
+	a{
+	  background-color : rgb(216,191,216) ;
+	  color : white ;
+	  text-decoration : none ;
+	  line-height : 80px ;
+	  font-size : 30px ;
+	  font-weight : bold ;
+	  letter-spacing : 10px ;
+	  margin : 20px ;
+	  padding : 15px ;
+	  border-radius : 15px ;
+	  box-shadow : 2px 2px 2px white ;
+	}
+	a:hover{
+	  background-color : #4169E1 ;
+	  color : white ;
+	}
+	div{
+	   font-size : 30px ;
 	}
   </style>
  </head>
  <body>
-  <h1>
-   长沙旅游攻略
-  </h1>
-  <img src="https://pic.quanjing.com/20/fc/QJ9127039515.jpg@%21350h" width="" height="" >
-  <p>
-   长沙市，别称星城，湖南省辖地级市、省会、特大城市，国务院批复确定的长江中游地区重要的中心城市、长株潭城市群中心城市。地处华中地区，湖南省东部偏北，属亚热带季风气候。是全国“两型社会”综合配套改革试验区、中国重要的粮食生产基地，长江中游城市群和长江经济带重要的节点城市，综合交通枢纽和国家物流枢纽。
-  </p>
-  <div id="" class="">
-   <h2>
-    住址选择
-   </h2>
-   <img src="img/five.jpg" width="300" height="230" style=float:left >
-    <h3>
-	 方案一：五一广场附近
-	</h3>
-	地铁一号线的中转站，出行很方便，绝大部分打卡景点都离五一广场很近。
-    <h3>
-	 方案二：沿2号地铁线附近住
-	</h3>
-	2号线连着火车站、高铁站；还连着最热闹的五一广场、橘子洲、岳麓山、甚至梅溪湖。
-	<h3>
-	 方案三：岳麓山大学城
-	</h3>
-	吃住玩都比五一广场要实惠很多，味道也不错，玩的就岳麓山，除了岳麓山要门票，其他都是免费参观。
-  </div>   
+  <a href="https://baike.baidu.com/">蛋仔派对</a>
+  <div id="" >
+	<img src="https://ecmb.bdimg.com/tam-ogel/443354559_-311441873_660_200.jpg" width="" height="" border="0" alt="">
+	<p>首先这款游戏的定位是休闲类游戏，但是加入了竞技的元素，而且竞技感非常的强烈，对局都是围绕着竞技来的，主要玩法有竞速和PVP两种玩法，游戏地图众多，每一次游戏开局都能够让玩家有全新的游戏体验，你永远也无法知道下一刻你会遇到什么。</p>
+	<img src="https://img1.baidu.com/it/u=1265552046,1755382931&fm=253&fmt=auto&app=138&f=PNG?w=500&h=270" width="" height="" border="0" alt="">
+	<p>虽然官方制作的地图有很多，但是还开放了地图工坊系统，能够让玩家在地图工坊制作自己的专属地图供全服的玩家游玩，同时官方还会不定期从中挑选出优秀的地图作品进入到排位游戏中，被挑选出来的玩家还可以从中获取到不少的瓶盖奖励哦，极大程度上提升了玩家的游戏积极性，也能够激发玩家的创作能力。</p>
+	<img src="https://c-img.18183.com/images/2023/03/28/4b182e0b4b366744157ab692db5569b8.jpg@!te5" width="" height="" border="0" alt="">
+	<img src="" width="" height="" border="0" alt="">
+  </div>
  </body>
 </html>

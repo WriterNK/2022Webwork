@@ -2,10 +2,10 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <meta name="viewport"content="width=device-width,initial-scale=1">
+  <title>秦世纪忠实迷妹的个人页面</title>
    <style type="text/css">
 	body{
-	font-size : 16px ;
+	font-size : 30px ;
 	}
 	div{
 	margin :1em auto;
@@ -54,7 +54,7 @@
   <div id="box1">
 	<p class="title">
 	  鹿柴
-    <span>[唐]王维</span>
+     <span>[唐]王维</span>
     </p>
 	<p>
 	  空山不见人，
@@ -75,7 +75,7 @@
   <div id="box2">
    <p class="title">
      送元二使安西
-   <span>[唐]王维</span>
+    <span>[唐]王维</span>
    </p>
    <p>
      渭城朝雨浥轻尘，
@@ -96,7 +96,7 @@
   <div id="box3">
    <p class="title">
     竹里馆
-    <span>[唐]王维</span>
+     <span>[唐]王维</span>
    </p>
    <p>
 	独坐幽篁里，

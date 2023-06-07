@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>秦世纪忠实迷妹的个人页面</title>
   <style type="text/css">
 	div{
      border : 1px solid ;
@@ -11,6 +11,7 @@
 	 border-radius : 15px ;
 	}
 	#box1{
+	 width : 500px ;
 	 height : 250px ;
      border-color : rgb(255,218,185) ;
 	 background-color : rgb(255,218,185) ;

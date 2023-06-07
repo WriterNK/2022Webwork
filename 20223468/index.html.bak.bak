@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>黄可濠的个人网页</title>
+  <style type="text/css">
+	body{
+	background : url(https://img.3dmgame.com/uploads/images/news/20230213/1676251607_696089.jpg) ;
+	background-size : 100% ;
+    background-repeat : no-repeat ; 
+	}
+	#sh{
+	text-align : left ;
+    background : black ;
+	height : 40px ;
+	padding : 10px ;
+	margin :  10px ;
+	font-size : 30px ;
+ 	}
+	a{
+	text-decoration : none ;
+	color : white ;
+    font-size : 20px ; 
+	font-family : FangSong ;
+	}
+	a:hover{
+	color : #44FFC1 ;
+	}
+	#bo{
+    position: absolute ;
+	text-align : center ;
+	line-height : 30px ;
+	bottom : 0 ;
+	left : 40% ;
+	}
+    #t1{
+	position: absolute ;
+	left : 40% ;
+	}
+	#t2{
+	position: absolute ;
+	left : 40% ;
+	top : 30% ;
+	}
+	#te1{
+    position: absolute ;
+	left : 42% ;
+	color : red ;
+	font-size : 20px ; 
+	font-weight : bold ;
+	}
+  </style>
+ </head>
+ <body>
+  <div id="sh">
+  　 <a class="a1" href="index.html" >ENIST</a>
+   　<a href="myid.html">个人信息</a>
+   　<a href="myspace.html">我的个人空间</a>
+  </div>
+
+  <div>
+    <a id="t1" href="https://www.bilibili.com/video/BV1Jo4y1e7eH?vd_source=4531ef584b3506d287cdaafeb585d08b">
+     <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.Km5qDEx6StdO-xobWgcJUgHaEK?w=331&h=186&c=7&r=0&o=5&pid=1.7">
+    </a>
+	<div id="te1">
+	恭喜牛牛哥哥夺得世界冠军
+    </div>
+  </div>
+  <div>
+    <a id="t2" href="https://www.bilibili.com/video/BV1gY411i7fd?vd_source=4531ef584b3506d287cdaafeb585d08b">
+     <img src="https://ts3.cn.mm.bing.net/th?id=OVP.w-VqmzumkOd7qX8X4g8roAIIFF&w=298&h=167&c=7&rs=1&qlt=90&o=5&pid=2.1">
+    </a>
+  </div>
+
+  <div id="bo">
+   <a href="https://www.jxstnu.edu.cn/">江西科技师范大学元宇宙产业学院</a><br>
+   <a href="20223468/index.html">黄可濠的个人网页</a>
+  </div>
+ </body>
+</html>

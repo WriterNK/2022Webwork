@@ -11,6 +11,7 @@
 	 border-radius : 15px ;
 	}
 	#box1{
+	 width : 450px ;
 	 border-color : rgb(255,218,185) ;
 	 background-color : rgb(255,218,185) ;
 	 font-size : 20px ;

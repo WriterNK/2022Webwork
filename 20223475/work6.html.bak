@@ -4,38 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <style type="text/css">
- h1{
-     background-color : powderblue ;
-  color : white ;
-  font-size :50px ;
-  height : 60px ;
-  padding : 20px ;
-  text-align : center ;
- }
- h2{
-     background-color : rgb(216,191,216) ;
-  color : white ;
-  line-height : 50px ;
-  font-size : 26px ;
-  font-weight : bold ;
-  letter-spacing : 10px ;
-  margin : 20px ;
-  padding : 15px ;
- }
+   a{
+     font-size : 30px ;
+	 color : black ;
+	 letter-spacing : 5px ;
+	 margin : 10px ;
+	 padding : 5px ;
+	 text-decoration : none ;
+   }
+   a:hover{
+     background-color : #4169E1 ;
+	 color : white ;
+   }
+   	h1{
+	 font-size :50px ;
+	 text-align : center ;
+	}
   </style>
  </head>
  <body>
   <h1>
-   秦世纪
+   斯蒂芬·库里
   </h1>
-  <img src="img/one.jpg" width="300" height="500" border="0" >
-  <img src="img/two.jpg" width="300" height="500" border="0" >
-  <img src="img/three.jpg" width="300" height="500" border="0" >
-  <img src="img/four.jpg" width="300" height="500" border="0" >
-  <nav>
-   <h2>
-   旧人不知我近况，新人不知我过往；近况不该旧人知，过往不与新人讲。
-   </h2>
-  </nav>
+  <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C._ca6bDZRnfxd-wQ4EK2EfAHaEk?w=261&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="450" height="400" >
+  <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.oZSasHQm1s5k3aBqg04RcwHaE8?w=258&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="500" height="400">
+  <div  class="img">
+   <a href="k1.html">个人简介</a>
+   <a href="k2.html">金州勇士</a>
+  </div>
  </body>
 </html>

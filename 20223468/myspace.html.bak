@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>
+  黄可濠的个人空间
+ </title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style type="text/css">
+    *{
+	margin : 0px ;
+	padding : 0px ;
+	}
+	body{
+	font-family : FangSong ;
+	background-color : black ; 
+	}
+	#sh{
+	position : fixed ;
+	text-align : left ;
+    background : black ;
+	height : 40px ;
+	font-size : 30px ;
+	left : 0 ;
+	top : 0 ;
+	width : 100% ;
+	z-index : 1 ;
+ 	}
+	#sh a{
+	color : white ;
+	}
+	a:hover{
+	color : #44FFC1 ;
+	}
+	a{
+	text-decoration : none ;
+	color : black ;
+	font-size : 20px ;
+	}
+	footer{
+    text-align : center ;
+	}
+    .h1{
+	 position: absolute;
+     top: 30px ;
+     left : 700px ;
+	 letter-spacing :10px ;
+	 font-family : STKaiti ;
+     font-size : 30px ;
+	} 
+
+	.img{
+	 display: inline-block;
+     position: absolute;
+    }
+    .img2{
+	 position: absolute;
+	 top: 300px ;
+     left : 700px 
+	}
+    .a{
+     position: absolute;
+	 top: 800px ;
+     left : 680px ;
+	 letter-spacing :10px ;
+	}
+	.img3{
+	 position: absolute;
+	 top: 800px ;
+	 left : 550px 
+	}
+ </style>
+</head>
+<body>
+  <div id="sh">
+  　 <a class="a1" href="index.html" >ENIST</a>
+   　<a href="myid.html">个人信息</a>
+   　<a href="myspace.html">私人空间</a>
+  </div>
+  <div id="none" class="img">
+   <div id="none" class="img1">
+    <img src="img/litter.jpg">
+     <span class="h1"><h1>黄可濠的私人空间</h1></span>
+	  <img class="img2" src="img/clock.jpg">
+	  <img class="img3" src="img/line800.jpg">
+	   <nav class="a">
+        <a href="work1.html">work1</a>
+	    <a href="work2.html">work2</a>
+	    <a href="work3.html">work3</a>
+	    <a href="work4.html">work4</a>
+	    <a href="work5.html">work5</a>
+	   </nav>
+    </div>
+   </div>
+
+</div>
+<footer>
+  <h2 class="h2">
+   <a href="https://www.jxstnu.edu.cn/">江西科技师范大学元宇宙产业学院</a><br>
+   <a href="myspace.html">黄可濠的个人空间</a>
+  </h2>
+</footer>
+</body>
+</html>
