@@ -14,12 +14,37 @@
 
 	}
 	.header{
-		  border-bottom:2px solid #ccc;
-		  text-align:center;
-		  height:170px;
-		  box-sizing:border-box;
-		  overflow:hidden;
+	        width:1226px;
+			margin:0 auto;
+			height:200px;
+			position:relative;
 	}
+	.wyf{
+	     position:absolute;
+		 right:530px;
+		 bottom:40px;
+	}
+	.header .face{
+                 width:200px;
+				 height:200px;
+	             border-radius:100px;
+				 float:left;
+				 
+
+	}
+	.header .web{
+	             width:1026px;
+				 height:200px;
+				 background-color:pink;
+				 float:left;
+				 text-align:center;
+	}
+	.web p{
+	       font-size:50px;
+		   color:white;
+		   line-height:200px;
+	}
+	
 	.nav{
 	    margin:0 auto;
 		width:1226px;
@@ -30,6 +55,7 @@
 		   line-height:50px;
            padding:0 16px;
 		   color:black;
+		   float:left;
 	}
 	.nav a:hover{
 	             color:yellow;
@@ -48,15 +74,16 @@
 	}
 	.left li{
 	         margin:32px 30px;
-			 font-size:20px;
+			 font-size:16px;
+			 color:#fff;
 	}
 	.left span{
 	           float:right;
 	}
-	.left a{
-	        color:#fff;
-	}
 	.left a:hover{
+	              color:red;
+	}
+	.left p:hover{
 	              color:red;
 	}
 	.right{
@@ -95,7 +122,7 @@
 		   color:white;
 	}
     .name3{
-	       color:#ffa500;
+	       color:#f05;
 		   line-height:25px;
 	}
 	.none{
@@ -107,43 +134,57 @@
 	a{
 	  text-decoration:none;
 	}
+	.footer{
+		  text-align:center;
+		  height:170px;
+		  box-sizing:border-box;
+		  overflow:hidden;
+		
+	}
 	.big{
 	     width:1226px;
 		 height:65px;
          margin:0 auto;
+		 background-color:#f0f0f0;
+         
 	}
 	.big p{
 	       font-size:30px;
 		   height:20px;
 	       display:inline-block;
-	       margin:10px 30px 10px 0;
+	       margin:10px 85px;
+
 	}
 	input{
 	            font-size:20px;
 		        border-radius:10px;
 		        box-shadow:0 0 10px red;
 	}
+	iframe{
+	       width:1226px;
+		   height:100%;
+	}
   </style>
  </head>
  <body>
   <div id="" class="header">
-	 <a href="http://jhsjk.people.cn/" target="blank"><img src="img\15.jpg" width="1226px" height="170px" border="0" alt=""></a>
+	<div id="" class="face">
+	  <img src="img\2.jpg" width="200px" height="200px" border="0" alt="" title="王云飞" class="">
+	  <img src="img\13.jpg" width="69px" height="35px" border="0" alt="" class="wyf">
+	</div>
+	<div id="" class="web">
+		<p>科师大梁朝伟的个人主页</p>
+	</div>
   </div>
 
   <div id="" class="nav">
 		<ul>
-			<li><a href="AD.html" target="blank">AD</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
-			<li><a href="">#####</a></li>
+			<li><a href="#" target="blank">平时作业➔</a></li>
+			<li><a href="work1.html" target="iframe">work1</a></li>
+			<li><a href="work2.html" target="iframe">work2</a></li>
+			<li><a href="work3.html" target="iframe">work3</a></li>
+			<li><a href="work4.html" target="iframe">work4</a></li>
+			<li><a href="work5.html" target="iframe">work5</a></li>
 
 		</ul>
   </div>
@@ -152,127 +193,134 @@
 	<div id="" class="left">
        <ul>
 		<li>
-           <a href="">hh<span class="">></span></a>	   
+           <p>《春江花月夜》<span class="">></span></p>
 		</li>
 		<li>
-		   <a href="">hh<span class="">></span></a>		   
+		   <p>唐代：张若虚<span class="">></span></p>
+        </li>
+		<li>
+		   <p>春江潮水连海平<span class="">></span></p>		   
 		</li>
 		<li>
-		   <a href="">hh<span class="">></span></a>		   
+		   <p>海上明月共潮生<span class="">></span></p>
 		</li>
 		<li>
-		   <a href="">hh<span class="">></span></a>		   
+		   <p>滟滟随波千万里<span class="">></span></p>		   
 		</li>
 		<li>
-		   <a href="">hh <span class="">></span></a>
+		   <p>何处春江无月明<span class="">></span></p>
 		</li>
 		<li>
-		   <a href="">hh<span class="">></span></a>
+		   <p>江流宛转绕芳甸<span class="">></span></p>
 		</li>
 		<li>
-		   <a href="">hh<span class="">></span></a>
+		   <p>月照花林皆似霰<span class="">></span></p>
 		</li>
 		<li>
-		   <a href="">hh<span class="">></span></a>		   
+		   <p>空里流霜不觉飞<span class="">></span></p>		   
 		</li>
 		<li>
-		   <a href="">hh<span class="">></span></a>		   
+		   <p>汀上白沙看不见<span class="">></span></p>		   
 		</li>
        </ul>
 	</div>
 	<div id="" class="right">
 		<ul>
 			<li>
-			    <a href=""><img src="img\12.jpg" width="" height="" border="0" alt=""></a>
+			    <img src="img\12.jpg" width="200px" height="150px" border="0" alt="">
 			    <div id="" class="name1">
-					<a href="" class="none">杭州</a>
+					敢于尝试
 			    </div>
 				<div id="" class="name2">
-					<a href="" class="none">亚运之城</a>
+					“曼声杯”演讲比赛
 				</div>
 				<div id="" class="name3">
-					<a href="" class="none">人间天堂</a>
+					顺利进入决赛
 				</div>
 			</li>
 			<li>
-			    <a href=""><img src="img\3.jpg" width="" height="" border="0" alt=""></a>
+			   <img src="img\3.jpg" width="200px" height="150px" border="0" alt="">
 			    <div id="" class="name1">
-					<a href="" class="none">上海</a>
+					爱好健身
 			    </div>
 				<div id="" class="name2">
-					<a href="" class="none">十里洋场烟花地</a>
+					每天都会去学校健身房
 				</div>
 				<div id="" class="name3">
-					<a href="" class="none">风云际会上海滩</a>  
+					流泪不如流汗
 			</li>
 			<li>
-			    <a href=""><img src="img\4.jpg" width="" height="" border="0" alt=""></a>
+			    <img src="img\4.jpg" width="200px" height="150px" border="0" alt="">
 			    <div id="" class="name1">
-					<a href="" class="none">南昌</a>
+					热爱旅行
 			    </div>
 				<div id="" class="name2">
-					<a href="" class="none">天下英雄城</a>
+					旅行是一场关于生活的冒险
 				</div>
 				<div id="" class="name3">
-					<a href="" class="none">文明南昌人</a>  
+					我还有万里路要行
 			</li>
 			<li>
-			    <a href=""><img src="img\5.jpg" width="" height="" border="0" alt=""></a>
+			    <img src="img\14.jpg" width="200px" height="150px" border="0" alt="">
 			    <div id="" class="name1">
-					<a href="" class="none">庐山之巅</a>
+					羽毛球发烧友
 			    </div>
 				<div id="" class="name2">
-					<a href="" class="none">此刻我高于一切</a>
+					喜欢打羽毛球
 				</div>
 				<div id="" class="name3">
-					<a href="" class="none">只低于你</a>  
+					很开心认识了很多球友  
 			</li>
 		    <li>
-			    <a href=""><img src="img\6.jpg" width="" height="" border="0" alt=""></a>
+			    <a href=""><img src="img\6.jpg" width="200p" height="150px" border="0" alt=""></a>
 			    <div id="" class="name1">
-					<a href="" class="none">成都</a>
+					喜欢篮球
 			    </div>
 				<div id="" class="name2">
-					<a href="" class="none">东郊记忆</a>
+					我最喜欢的球星
 				</div>
 				<div id="" class="name3">
-					<a href="" class="none">杜甫草堂</a>  
+					23号勒布朗詹姆斯  
 			</li>
 			<li>
-			    <a href=""><img src="img\8.jpg" width="" height="" border="0" alt=""></a>
+			    <img src="img\8.jpg" width="200px" height="150px" border="0" alt="">
 			    <div id="" class="name1">
-					<a href="" class="none">武汉</a>
+					自恋狂
 			    </div>
 				<div id="" class="name2">
-					<a href="" class="none">江城</a>
+					作为一名帅哥
 				</div>
 				<div id="" class="name3">
-					<a href="" class="none">千湖之城</a>  
+					自恋是我应该的
 			</li>
          	<li>
-			    <a href=""><img src="img\9.jpg" width="" height="" border="0" alt=""></a>
+			    <img src="img\9.jpg" width="200px" height="150px" border="0" alt="">
 			    <div id="" class="name1">
-					<a href="" class="none">重庆</a>
+					珍惜友情
 			    </div>
 				<div id="" class="name2">
-					<a href="" class="none">3D魔幻重庆</a>
+					平日里总是互损
 				</div>
 				<div id="" class="name3">
-					<a href="" class="none">山城的夏天永远不缺少年</a>  
+					但很幸运遇到了一群真诚的人
 			</li>
 			<li>
-			    <a href=""><img src="img\10.jpg" width="" height="" border="0" alt=""></a>
+			    <img src="img\10.jpg" width="200px" height="150px" border="0" alt="">
 			    <div id="" class="name1">
-					<a href="" class="none">厦门</a>
+					喜欢念旧
 			    </div>
 				<div id="" class="name2">
-					<a href="" class="none">浪漫且文艺的城市</a>
+					每一个阶段都是好年华
 				</div>
 				<div id="" class="name3">
-					<a href="" class="none">热情四溢</a>  
+					但还是会怀念曾经的时光 
 			</li>
 		</ul>
+
 	</div>
+  </div>
+  <div id="" class="footer">
+    	<iframe name="iframe" frameborder="0" src="https://lijianhong19720904.github.io/WebBasic/index.html"></iframe>
   </div>
 
   <div id="" class="big">
@@ -283,13 +331,10 @@
       <input type="button" value="计科2班" onclick="">
 	</p>
 	<p>
-      <input type="button" value="20223484" onclick="">
+      <input type="button" value="学号：20223484" onclick="">
 	</p>
 	<p>
-      <input type="button" value="18296737060" onclick="">
-	</p>
-	<p>
-	   <input type="button" value="" onclick="">
+      <input type="button" value="电话号码：18296737060" onclick="">
 	</p>
   </div>
  </body>

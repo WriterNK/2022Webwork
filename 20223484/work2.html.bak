@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>20223484</title>
+ </head>
+ <style type="text/css">
+    body{
+	     width:500px;
+		 height:500px;
+	     background-image:url("u=3875859422,3645499737&fm=253&fmt=auto&app=120&f=JPEG.webp") 
+		 
+	}
+	h1{
+	   font-size: 50px;
+	   font-weight:1000;
+	   text-align:center;
+	   font-style:italic;
+	   
+	}
+	a{
+       font-size: 50px;
+	   background-color:red;
+	   text-align:center;
+	  
+	}
+	div{
+	    font-style:italic;
+	}
+ </style>
+ <body>
+  <h1>王云飞的个人主页</h1>
+  <hr>
+  <form method="post" action="">
+	
+  
+	  账号：<input type="text" placeholder="手机号/学号">
+	  <br>
+	  <br>
+
+	  密码：<input type="password" placeholder="请输入密码">
+
+	  <br>
+	  <br>
+	  性别:
+	  <label><input type="radio" name="gender">男</label> 
+	  <label><input type="radio" name="gender">女</label>
+	  <br>
+	  <br>
+	  出生地<select>
+				<option>江苏</option>
+				<option>上海</option>
+				<option>北京</option>
+                <option selected>江西</option>
+	        </select>
+			<br>
+	        <br>
+	<div id="" class="">		
+	  <input type="submit" value="真提交">
+	  <input type="button" value="假提交">
+	  <input type="reset">
+	  
+      <br>
+	  <br>
+    </div>
+  </form>
+    <div>
+	  上传文件：<input type="file">
+	  <br>
+	  <br>
+	  &nbsp&nbsp&nbsp邂逅江南-许嵩
+	  <br>
+	  <audio src="C:\Users\asus\Music\宝藏挖掘机 - 《邂逅江南》许嵩：风吹杨柳上了岸，一天两天发现你我似神仙 (节目).ogg"controls></audio>
+    <div>
+	  <a href="" target=blank>work1</a>
+	  <br>
+	  <br>
+	  <a href="" target=blank>work2</a>
+	  <br>
+	  <br>
+    <div>
+ </body>
+</html>

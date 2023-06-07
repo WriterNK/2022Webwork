@@ -1,212 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>20223483</title>
-  <style type="text/css">
-    footer{
-            font-size: 20px;
-            font-family: 黑体;
-            font-weight: bolder;
-            color: rgb(255, 0, 0);
-            text-align: center;
-            height :30px;
-            letter-spacing: 10px;
-            background-color: white;
-    }
-    p{
-      text-align: left;
-      color: rgb(233, 229, 236);
-      font-size: 30px ;
-    }
-    body{
-      background: black;
-      background-size: 100% 100%;
-      background-attachment: fixed;
-    }
+<!doctype html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<title>远山雾的主页</title>  
+<style type="text/css">  
+    *{
+	 margin: 0 ;
+	 padding: 0 ;
+	}
+	body{
+	 height:600px;
+     color: white;
+     background: url(https://img.zcool.cn/community/01812c58dcb1baa801219c77d78a45.jpg@1280w_1l_2o_100sh.jpg);
+	}
     a{
-      display: inline-block;
-      text-decoration: none;
-      font-weight: bold;
-      color: rgb(135, 20, 201);
-      font-family: 仿宋体 ;
-      font-size: 40px;
-    }
+	text-decoration: none ;
+    color : rgb(44, 0, 0) ;
+	background-color : rgba(17, 255, 235, 0.822) ;
+    font-size : 20px ;
+    border : 2px solid rgb(0, 160, 59) ;
+	padding : 20px 4% ;
+	border-radius: 50px;
+	}
     a:hover{
-          color: aqua;
-    }
-    li{
-      color: aliceblue;
-      font-size: 40px;
-    }
-    h2{
-      font-size: 60px;
-      color: bisque;
-    }
-    h3{
-      font-size: 45px;
-      color: rgb(35, 244, 160);
-    }
-    h4{
-      font-size: 25px;
-      color: rgb(10, 127, 228);
-    }
-    #box1{
-      border-color：blue ;
-      background: url(https://ok.166.net/reunionpub/1_20210702_17a674c1fd9271298.jpeg);
-      width: 70%;
-  }
-    #box2{
-      width: 45%;
-      position: relative;
-      background: url(https://image.9game.cn/2019/6/21/85393656.jpg);
-    }
-    #box3{
-      float: right;
-      width: 45%;
-      position: relative;
-      top: -300px;
-      
-      background: url(https://picb.zhimg.com/v2-47070536a443ce5b0b4bcbcbafd510ee_r.jpg?source=1940ef5c);
-    }
-    #box4{
-      width: 45%;
-      position: relative;
-      
-      background: url(https://pic4.zhimg.com/v2-26551894d146063c73ba169686bc90dd_r.jpg?source=1940ef5c);
-    }
-    #box5{
-      float: right;
-      width: 45%;
-      position: relative;
-      top: -300px;
-      
-      background: url(https://img.keaitupian.cn/uploads/2021/04/28/f0aad4d1ef021495c9c6d83ef6c9db9e.jpg);
-    }
-    #box6{
-      width: 45%;
-      position: relative;
-      
-      background: url(https://ts1.cn.mm.bing.net/th/id/R-C.c948a843f615c2136b9ae68336c57aa4?rik=Id30%2bTBDgvAPCw&riu=http%3a%2f%2fres.1xianxian.cn%2fupload_139b2209a59eb24e097d0102a8a29b98.jpg%3fimageView2%2f0%2fw%2f847%2fh%2f640&ehk=W9Cjdtq%2f5xYMDp7P3esPy5b%2bS4bMeF9Zsw34UsO3quM%3d&risl=&pid=ImgRaw&r=0);
-    }
-     #box7{
-      float: right;
-      width: 45%;
-      position: relative;
-      clear: both;
-      background: url(https://ts1.cn.mm.bing.net/th/id/R-C.8b0470d81b5eaa21fed0f7d56381eef8?rik=vwM82w1ENvXgow&riu=http%3a%2f%2fimage.qianye88.com%2fpic%2f34e88325ba7508e1bb5e930040ccb184&ehk=JNwfhfzIuXOmrqZ8J%2f7gv%2flB1glRAaqJ7fCl6lPBCtk%3d&risl=&pid=ImgRaw&r=0);
-      top: -290px;
-    }
-    #box8{
-      width: 80%;
-      height: 1000px;
-      background: url(https://ts1.cn.mm.bing.net/th/id/R-C.c6d1c6b8965b07bd3b1b4530fd71c4d0?rik=7AAJvfh0Mz7rww&riu=http%3a%2f%2fimg2.tapimg.com%2fbbcode%2fetag%2fFsdofSKLIeRDmA9rRLDpR5tumQnb.jpg&ehk=1vIV%2flgCyNV8HCbU550GXmesXxL%2bYxKcjjgPBz7wgpA%3d&risl=&pid=ImgRaw&r=0);
-    }
-    #box9{
-      background: url(https://cn.bing.com/images/search?view=detailV2&ccid=yUioQ%2fYV&id=6CB57ED9BC310D4B043E0B0FF0824330F9F4DD21&thid=OIP.yUioQ_YVwhNrmuaDNsV6pAHaEK&mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.c948a843f615c2136b9ae68336c57aa4%3frik%3dId30%252bTBDgvAPCw%26riu%3dhttp%253a%252f%252fres.1xianxian.cn%252fupload_139b2209a59eb24e097d0102a8a29b98.jpg%253fimageView2%252f0%252fw%252f847%252fh%252f640%26ehk%3dW9Cjdtq%252f5xYMDp7P3esPy5b%252bS4bMeF9Zsw34UsO3quM%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=476&expw=847&q=%e5%85%89%e9%81%87%e9%a3%8e%e6%99%af&simid=608028079519905655&FORM=IRPRST&ck=166546F59AAC7F76ED341713897C41E9&selectedIndex=249);
-      width: 85%;
-    }
-  </style>
-</head>
-<body>
-<a  href="https://sky.163.com/kingdom/" title="光遇官方主页">
-  <img src="https://webinput.nie.netease.com/img/sky/logo6.png" alt="logo" />
-  <img style="width: 70px; height: 70px; margin-left: 20px" src="https://webinput.nie.netease.com/img/sky/icon.png/96"
-    alt="logo" />
-</a>
-<p>沙漠、花海、浮游与云端……</p>
-<p>有一种浮游叫——深层海域的深处，是对生命的一探究竟……（<a href="https://sky.163.com/zuopin/zp3.html">《浮游世界》</a>）</p>
-<p>有一种风景叫——远离喧嚣与浮躁，花海中自有一处宁静……（<a href="https://thatgamecompany.com/flower/">《Flower花》</a>）</p>
-<p>有一种交往叫——朝圣旅途漫漫，幸甚有你不再孤单……（<a href="https://sky.163.com/zuopin/zp2.html">《风之旅人》</a>）</p>
-<p>有一种相遇叫——云端翱翔共同开启爱与给予的旅途……（<a href="https://sky.163.com/kingdom/">《Sky光遇》</a>）</p>
-<p>追寻光，踏上漫长的旅途。</p>
-<p>迎着风，探寻云海的奥秘。</p>
-<p>旅途风景，愿与你共赏。</p>
-<img src="https://img.zcool.cn/community/01fbf060d53e5b11013eaf708095ae.jpg@1280w_1l_2o_100sh.jpg" title="遇境">
-<p>《光·遇》（Sky：Children of the Light）是由<a href="https://thatgamecompany.com/">Thatgamecompany</a>历时七年打磨出的社交冒险游戏，由网易游戏代理运营，于2019年06月21日上市，是一个温暖人心的社交冒险游戏，这是一场拥抱自由和温暖的云端之旅。与玩家心爱的人们携手，在这座旷世的天空王国中翱翔，爱的力量将支持玩家一路前行。</p>
-<p><li><a href="#1">游戏剧情</a></li>
-<li><a href="#2">主角设定</a></li>
-<li><a href="#3">场景地图</a></li></p>
- <h2 id="1">游戏剧情</h2>
- <div id="box1">
-<p>
-在一座失落的云中王国。有一群光之子民居住于此，光明与黑暗在王国中和谐共存着。然而渐渐地，光与暗的平衡发生了倾斜，王国也因此没落。只流传下来这样的一条预言：“在不久的未来会有一群孩子归来，把光明带回这个国度”[8]。
-</p>
-<p>故事始于一片朦胧的晨光中。在晨岛迎来初生的光之后裔，宛如懵懂的孩童，跌跌撞撞地踏上了冒险的旅程。漫步在春意盎然的云野，穿越潮湿繁茂的雨林，在绚丽霞谷开启冰上竞速，于阴冷的暮土对抗冥龙，在禁阁探寻王国失落的真相……旅人们一步步肩负起将光明带回天空王国的使命，来到最后一扇石门前，准备迎接暴风眼的挑战。</p>
-<p>通过暴风眼的途中，狂风裹挟着巨石直面吹来，旅人们在艰难前行的同时需躲避头顶盘旋的冥龙。在远处最亮的星光指引下，旅人们抵达一处狭长窄小的隧道，两侧的石像灯台与散落在地的光之翼，仿佛预示着尽头一端的极度危险。</p>
-<p>穿越隧道，旅人们终于进入了《光·遇》之旅的最终考验——伊甸之眼。大量的红晶石和碎石伴随着飓风铺天盖地的砸向地面，污水里匍匐着许多被困住的灵魂，他们曾经为了光明与黑暗对抗直至最后一刻。天空王国失落后，灵魂停留在这里无数个年月，等待着光之后裔们的到来。旅人需要奉献出自己的光之翼，才能拯救他们。</p>
-<p>暴风骤雨之下，面对被困住的灵魂，旅人们又将做出怎样的选择？是保留自己的光之翼，还是拯救被困的灵魂？</p>
-<p>勇于献出光之翼的旅人，将在狂风巨石中逆风前行，将失落的灵魂之光送回天际。所有的光之翼已经全部送出，旅人的心火一点点黯淡下来，一路风尘也使得旅人的步伐愈来愈沉重，疲惫的身躯无法再苦苦支撑，一步步落入黑暗之中。</p>
-<p>长久的黑暗逝去，光之后裔最终在心境醒来。与最初的自己相拥后，旅人迸发出自身最耀眼的光芒，在先祖和白鸟的指引下前往星河。重生的旅途中，玩家将与曾经并肩同行的好友以灵魂的方式重聚，汇聚成为天际的星光；那些曾被旅人解救的灵魂，也将于旅途的终点等待着你，向你告别。</p>
-<p>抵达尽头之后，旅人们又该走向何方？在《光·遇》世界中，旅途的终点，也是下一次旅程的起点。旅人将化作一抹流星，再次开启真正的旅程。而万般故事，才刚刚开始。</p>
-</div>
-<h2 id="2">主角设定</h2>
-<h3>“光之后裔”</h3>
-<div id="box9">
-<p>许多年前，在云端之上，有着一个宏大的光之国度，国度的子民由“母亲”创造，子民们在“先祖”们的帮助下，一天天的壮大着自己的王国。然而好景不长，王国内部动荡，一场内战过后，昔日的王国烟消云散。在目睹了这场战争后，“母亲”创造了“光之后裔”，赋予他先祖的力量，而“光之后裔”们，也踏上追寻先祖的旅途。作为“光之后裔”，玩家们将要在旅途中，寻找先祖留下的信息，领略王国昔日的辉煌。随着旅途的进行，玩家也将逐步获得力量。</p>
-<p>旅人们可用烛火铸就的蜡烛解锁先祖们馈赠之树的节点并随机获得一种魔法，魔法包括可以恢复能量的光能药剂魔法、能够照亮黑暗的璀璨之星魔法、能在短时间内增加跳跃距离的漂浮魔法等等，从效果可以分为助力探险的功能性魔法、自由交谈的社交性魔法以及精彩的娱乐性魔法等等。</p>
-<p>游戏中玩家将跟随先祖们学习各种基础单人动作，某些动作被点击不同次数时还会呈现不同的姿态；双人动作需要玩家与其他玩家成为好友后，在好友界面解锁；高级动作则需要玩家用收集的蜡烛来解锁获取。</p>
-</div>
-<h2 id="3">场景地图</h2>
-<h4>查看地图光标<No-Break Space></No-Break>
- 每日任务光标</h4>
-<a href="https://sky.res.netease.com/pc/gw/20221215171426/img/map_big_9f6de05.jpg" title="地图">
-<img src="https://sky.res.netease.com/pc/gw/20221215171426/img/wdjn_eye_02e50eb.png">
-</a>
-<a href="https://sky.163.com/" title="每日任务">
-<img src="https://sky.res.netease.com/pc/gw/20221215171426/img/wdjn_bang_33540b3.png">
-</a>
-<h3>主要地图</h3>
-<div id="box2">
-  <a href="https://sky.163.com/kingdom/mapview/?type=cd" title="晨岛">
-      <img src="https://sky.res.netease.com/pc/gw/20221215171426/img/wgjn_1_328873d.png">
-      </a>
-      <a href="第一次web作业.html">晨岛</a>
-      <p>天空王国中的第一个场景，是每位“光之后裔”诞生的地方，也是这场逐光旅途的启程地。这里有着神秘的山洞、暖粉色沙海、微泛的晨光，石壁上刻着的壁画诉说着王国的故事。初到的旅人们将在晨岛获取属于自己的斗篷、学会飞行；也将在此首次学会收集先祖的记忆，跟随先祖学习解锁新的动作。</p>
-      </div>
-      <div id="box3">
-        <a href="https://sky.163.com/kingdom/mapview/?type=yy" title="云野">
-      <img src="https://sky.res.netease.com/pc/gw/20221215171426/img/wgjn_2_c07d245.png">
-      </a>
-      <a href="第二次web作业.html">云野</a>
-      <p>天空王国的第二个场景，一片在天地间涌动、浩瀚无边的云海。在云野，“光之后裔”们将正式踏上征程。玩家将在云野首次接触到长凳，学会如何与其他玩家文字交流并接触到众多协作任务。</p>
-      </div>
-      <div id="box4">
-        <a href="https://sky.163.com/kingdom/mapview/?type=yl" title="雨林">
-      <img src="https://sky.res.netease.com/pc/gw/20221215171426/img/wgjn_3_4843128.png">
-      </a>
-      <a href="">雨林</a>
-      <p>天空王国的第三个场景，常年累月下着淅淅沥沥的雨，而冰凉的雨水会持续消耗旅人的能量，只有靠近光源才能维持心火。光之后裔们将在这里接受来自雨水的挑战，接触到一些神奇的发光生物，并初步了解到云中王国潜在的危险。</p>
-      </div>
-      <div id="box5">
-        <a href="https://sky.163.com/kingdom/mapview/?type=xg" title="霞谷">
-      <img src="https://sky.res.netease.com/pc/gw/20221215171426/img/wgjn_4_f54a65b.png">
-      </a>
-      <a href="">霞谷</a>
-      <p>天空王国的第四个场景，各位旅人将体验速度与激情的碰撞，感受溜冰竞速的乐趣。冰雪皑皑的王国沐浴在夕阳之中，旅人们可以在此尽情欣赏美景。</p>
-      </div>
-      <div id="box6">
-        <a href="https://sky.163.com/kingdom/mapview/?type=mt" title="暮土">
-      <img src="https://sky.res.netease.com/pc/gw/20221215171426/img/wgjn_5_7caafb9.png">
-      </a>
-      <a href="">暮土</a>
-      <p>天空王国的第五个场景，从巨大的漩涡一跃而下，旅人们将坠入一片阴冷的荒芜之地。在暮土，玩家将第一次体验到“失去”。</p>
-      </div>
-      <div id="box7">
-        <a href="https://sky.163.com/kingdom/mapview/?type=jg" title="禁阁">
-      <img src="https://sky.res.netease.com/pc/gw/20221215171426/img/wgjn_6_dce8396.png">
-      </a>
-      <a href="">禁阁</a>
-      <p>天空王国的第六个场景，在这里，旅人们将回顾一路以来经历的王国故事，并接受自己的使命。</p>
-      </div>
-      <div id="box8">
-        <a href="">伊甸之眼</a>
-      
-      <p>在“伊甸之眼”中，玩家将迎来前所未有的挑战与考验。进入“伊甸之眼”需要玩家达到一定要求，才具备挑战的资格。在“伊甸之眼”中，要前行只能一步一步地攀爬峭壁。</p>
-      </div>
-
-   <footer>
-    版权所属Thatgamecompany
-   </footer>
-</body>
+	background-color : hsla(290, 100%, 74%, 0.799) ;
+	color: #666 ;
+	}
+    #a{
+	border : 2px solid black ;
+	height : 80px ;
+	text-align : center ;
+	line-height : 80px ;
+	}
+    #boxTitle{  
+	 height: 100px;
+     background-color : #1dbc94 ; 
+     text-align : center ;
+	 font-size : 50px ;
+	 text-shadow : 3px 3px black ;
+	 line-height : 100px ;
+    }  
+    #boxLeft{  
+    height : 700px ;  
+    width : 50% ;  
+    background: url(https://ts1.cn.mm.bing.net/th/id/R-C.0982c55947408bea7f87c2f2347c8701?rik=hRjK%2f%2bw0RpfLJA&riu=http%3a%2f%2fpic.bizhi360.com%2fbbpic%2f41%2f2941.jpg&ehk=HR3yiWrRWfQHwdhlaDiAH9JbNYJIv3JUCBruFCrDafU%3d&risl=&pid=ImgRaw&r=0);  
+    float : left ;  
+	background-size: 120%;
+	font-family : KaiTi ;
+	color : rgb(247, 245, 245) ;
+    overflow : scroll ;
+    font-size: 30px;
+    }  
+    #boxRight{  
+     height : 700px ;  
+     width : 50% ;  
+     background : url(https://ts1.cn.mm.bing.net/th/id/R-C.7d3cabc95f01827b5dce0bfade99af8e?rik=wnWSCMHYRIxuhg&riu=http%3a%2f%2fudongman.oss.aliyuncs.com%2fimage%2f2014%2f0117%2f20140117090023361.png&ehk=6IMkvnMRa%2f4qBeicYpnVcae0RLjjQYXAWfc%2fmmtyljA%3d&risl=&pid=ImgRaw&r=0) ;  
+     position : relative ;  
+     float : left ;  
+	 color : rgb(129, 31, 174) ;
+    }  
+    #face{     
+     background-image :url('img/myface.jpg') ;
+	 background-position:center;
+     height : 166px ;
+	 width: 120px ;
+     position : absolute ;
+	 border : 2px black solid ;  
+     bottom : 0px ;
+	 right : 0px ;
+	 font-size : 10px ;
+	 color : white ;
+     }  
+	 #footer{  
+	 font-size:20px ;
+     line-height: 40px;
+	 height:40px;
+	 text-align:center;
+	 background-color : rgba(85, 4, 206, 0.699) ;
+	 float : left ;
+	 width : 100% ;
+	}
+	br{
+		font-size: 25px;
+	}
+	p{
+		font-size: 32px;
+	}
+</style>  
+</head>  
+<body>  
+ <div id="boxTitle">  
+    远山雾的主页
+ </div> 
+ <div id="a">
+     <a href="紫藤.html" target="myiframe">紫藤</a>
+     <a href="丁香.html" target="myiframe">丁香</a>
+	 <a href="山茶.html" target="myiframe">山茶</a>
+	 <a href="芍药.html" target="myiframe">芍药</a>
+	 <a href="水仙.html" target="myiframe">水仙</a>
+ </div>
+ <div id="boxLeft"> 
+   <iframe 
+     src="丁香.html" 
+     title="iframe1"
+     width="100%"
+	 name="myiframe"
+	 height="45%">
+   </iframe>
+   <h1>春江花月夜</h1>
+   <br>春江潮水连海平，海上明月共潮生。
+   <br>滟滟随波千万里，何处春江无月明！
+   <br>江流宛转绕芳甸，月照花林皆似霰。
+   <br>空里流霜不觉飞，汀上白沙看不见。
+   <br>江天一色无纤尘，皎皎空中孤月轮。
+   <br>江畔何人初见月？江月何年初照人？
+   <br>人生代代无穷已，江月年年望相似。
+   <br>不知江月待何人，但见长江送流水。
+   <br>白云一片去悠悠，青枫浦上不胜愁。
+   <br>谁家今夜扁舟子？何处相思明月楼？
+   <br>可怜楼上月裴回，应照离人妆镜台。
+   <br>玉户帘中卷不去，捣衣砧上拂还来。
+   <br>此时相望不相闻，愿逐月华流照君。
+   <br>鸿雁长飞光不度，鱼龙潜跃水成文。
+   <br>昨夜闲潭梦落花，可怜春半不还家。
+   <br>江水流春去欲尽，江潭落月复西斜。
+   <br>斜月沉沉藏海雾，碣石潇湘无限路。
+   <br>不知乘月几人归，落月摇情满江树。
+ </div>  
+ <div id="boxRight"> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <p>姓名：韩雨彤</p>
+  <p>性别：女</p>
+  <p>年龄：19岁</p>
+  <p>出生地：辽宁省本溪市</p>
+  <p>学号：20223483</p>
+  <p>班级：22级计算机科学与技术2班</p>
+  <p>爱好：小说，动漫，漫画，游戏</p>
+  <p></p>
+  <div id="face">  
+    22计科2班韩雨彤
+  </div>  
+ </div>  
+ <div id="footer">
+    江西科技师范大学元宇宙产业学院计算机科学与技术专业2班韩雨彤完成于2023-06-06
+ </div> 
+</body>  
 </html>

@@ -1,0 +1,75 @@
+@charset "utf-8";
+body{
+ background-image: url("images/background.jpg");
+ font-family:"宋体";
+ font-size: 20px;
+ line-height: 25px;
+}
+.nav{
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: #738CAA;
+ width: 800px;
+ margin-right: auto;
+ margin-left: auto;
+}
+.main{
+ background-image: url(bj.png);
+ color: #000;
+}
+a{
+ font-size: 20px;
+ font-family: "微软雅黑";
+ color:green;
+}
+a:link{
+ color:green;
+ text-decoration: none;
+}
+a:visited{
+ text-decoration: none;
+ color:green;
+}
+a:hover{
+ text-decoration: none;
+ color:pink;
+}
+a:active{
+ text-decoration: none;
+ color:pink;
+}
+.title{
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: #200F15;
+ border-left-width: 5px;
+ border-left-style: solid;
+ border-left-color: #200F15;
+ padding-left: 10px;
+ color: #AD5A5A;
+}
+p{
+color:yellow;
+}
+#footer{
+position:absolute;
+background:black;
+bottom:10px;
+color:white;
+text-align:center;
+width:100%;
+left:0;
+}
+#boxLeft{  
+height : 300px ;
+width : 50% ;
+background-color : #cc22ff ;
+float : left ;
+}  
+#boxRight{  
+height : 300px ;  
+width : 50% ;  
+background-color : brown;  
+position : relative ;  
+float : left ;
+}
