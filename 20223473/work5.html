@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+    <title>登录页面</title>
+    <style>
+    body{
+        background-image: url("https://img0.baidu.com/it/u=1617940732,1879989235&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500");
+        background-repeat: no-repeat;
+        background-size:cover;
+
+    }
+    .innerDiv{
+        margin-left: 535px;
+         margin-top: 20px;
+    }
+    </style>
+    <script src ="jquery-1.9.1.min.js"></script>
+    <script>
+        function myck(type){
+        var input_username = jQuery("#username");
+        var input_pwd = jQuery("#pwd"); 
+         if(type == 1){
+        //提交非空校验
+         if(input_username.val().trim() == ""){
+        alert("请先输入用户名");
+        input_username.focus();
+        return false;
+        }
+        if(input_pwd.val().trim()==""){
+        alert("请先输入密码");
+        input_pwd.focus();
+        return false;
+        }
+        alert("登录成功");
+                    
+        }else if(type == 2){
+        if(confirm("是否清空数据？")){
+            input_username.val("");
+            input_pwd.val("");
+            }
+        }
+    }
+
+    </script>
+</head>               
+
+<body>
+    <div style="margin-top: 100px;margin-left: 600px;"> 
+    <span style="font-size: 60px;">
+        <div>
+            登录
+        </div>
+    </div>   
+        <div class="innerDiv">
+         用户名:<input id = "username" type="text" placeholder="请输入用户名">
+        </div>
+    </div>
+
+    </div>   
+        <div class="innerDiv">
+         密&nbsp&nbsp&nbsp码:<input id = "pwd" type="password" placeholder="请输入密码">
+        </div>
+    </div>
+    <div class="innerDiv">
+        <span style="margin-left: 90px;">
+            <input type="button" onclick="myck(1)" value="提交">
+            <input type="button" onclick="myck(2)" value="清空">
+    </span>
+    </div>
+
+</body>
+
+</html>

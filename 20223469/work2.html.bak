@@ -5,7 +5,7 @@
   <title>谈web平台软件的开发</title>
        </head>
   <body>
-<h2> 创建HTML文件——思维必操作重要  </h2>
+<h1> 创建HTML文件——思维必操作重要  </h1>
     <p>
       <ul>
                    <li>1.建立文本文件，改后缀名.html ，最后存盘。</li>
