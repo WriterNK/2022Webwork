@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏天地</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+    <header>
+        <span class="by1">
+            游戏天地
+        </span>
+    </header>
+    <nav>
+        <div>
+            <div>
+                <div class="sppl">
+                    <ul>
+                        <p class="sppl spjj"><a href="index.html" class="threed">Web</a></p>
+                        <button class="btn"><a class="a1" href="learning room.html">学习空间</a></button>
+                        <button class="btn"><a class="a1" href="movie and comic.html">影视动漫</a></button>
+                        <button class="btn"><a class="a1" href="game.html">游戏天地</a></button>
+                        <button class="btn"><a class="a1" href="advertisement.html">广告合作</a></button>
+                        <button class="btn"><a class="a1" href="personal information.html">个人信息</a></button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <article class="sppl">
+        <div style="background-color: black;">
+            <div class="imgBoxLeft sppl">
+                <a href="https://www.epicgames.com/store/zh-CN/">
+                    <img src="https://i0.hdslb.com/bfs/article/6be6e8674677c87a241daeebe95c71b3e44b0c6d.jpg">
+                </a>
+                <a>
+                    <img src="https://img.soogif.com/arEVyQtFqHtbcE3EsU8WNi6Jjnn3UCag.gif">
+                </a>
+                <a>
+                    <img src="https://img.soogif.com/arEVyQtFqHtbcE3EsU8WNi6Jjnn3UCag.gif">
+                </a>
+            </div>
+            <div class="imgBox sppl">
+                <a href="https://www.epicgames.com/store/zh-CN/">
+                    <img class="img-slide img1" src="https://i0.hdslb.com/bfs/archive/3b7861b104706cfc21fac5d8566d9ef96d2839d3.jpg" alt="图片1">
+                </a>
+                <a href="https://www.epicgames.com/store/zh-CN/">
+                    <img class="img-slide img2" src="https://img0.baidu.com/it/u=406078820,1237356996&fm=253&fmt=auto&app=138&f=JPEG?w=887&h=500" alt="图片2">
+                </a>
+                <a href="https://www.epicgames.com/store/zh-CN/">
+                    <img class="img-slide img3" src="https://img1.baidu.com/it/u=3291426645,448349372&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=313" alt="图片3">
+                </a>
+            </div>
+        </div>
+        <div class="gezi4">
+            <ul class="czpl">
+                <button class="ggbtn1">限时特价</button>
+                <button class="ggbtn1">epic</button>
+                <button class="ggbtn1">客服</button>
+                <button class="ggbtn1">反馈</button>
+            </ul>
+        </div>
+        <div style="height: 220px;background-color: black;">
+
+        </div>
+    </article> 
+    <aside>
+        <span class="by">
+            创文明网络，建和谐校园！
+        </span>
+    </aside> 
+    <footer>
+        <div style="color: rgb(255, 255, 255);text-align: center;">
+            江西科技师范大学元宇宙产业学院<br>计算机科学与技术22级2班张伟强完成于2023-06-06          
+        </div>
+    </footer>  
+    <script type="text/javascript">
+        var index=0;
+        //效果
+        function ChangeImg(){
+            index++;
+            var a=document.getElementsByClassName("img-slide");
+            if(index>=a.length) index=0;
+            for(var i=0;i<a.length;i++){
+                a[i].style.display='none';
+            }
+            a[index].style.display='block';
+        }
+        //设置定时器，每隔两秒切换一张图片
+        setInterval(ChangeImg,3000);
+    </script>                       
+</body>
+</html>

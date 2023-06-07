@@ -2,41 +2,48 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>垃圾网站</title>
+  <title>web</title>
   <style type="text/css">
+    body{
+	background-image:url(https://p1.itc.cn/q_70/images01/20220408/fc2744f2f23e4d69bfb544c9f0ce96a9.jpeg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	}
 	h1 {
 	font-size : 100px ;
     text-align : center ;
 	color : blue ;
-	background-color : black ;
+	background-color :orange ;
+	margin-top:7px;
 	}
-	a {
-	background-color : white ;
-	font-size : 50px ;
-	padding : 25px ;
+	a {	
+	text-decoration:none;
+	border:2px solid;
+	margin:5%;
+	background-color:yellow;
+	color:red;
+	box-shadow:5px 5px 10px green;
 	}
-	table {
-	font-size : 50px ;
-	}
-    a: hover {
+    a:hover{
 	color : green ;
-	text-decoration : none ;
 	} 
+	#box1{
+	font-size:50px;
+	height:75px;
+	padding-top:7px;
+	}
 
   </style>
  </head>
- <body background = "https://pic2.zhimg.com/50/v2-d2fccceb0389396770e0fb3e1420f4db_hd.jpg">
-  <h1>垃圾</h1>
-  <nav>
-  <table>
-   <tr>
-     <td><a href="./work 1.html" target="_blank">第一周</a></td>
-     <td><a href="">第二周</a></td>
-     <td><a href="">第三周</a></td>
-     <td><a href="">第四周</a></td>
-     <td><a href="">第五周</a></td>
-   </tr>
-  </table>
-  </nav>
+ <body>
+  <h1>web</h1>
+  <div id="box1" class="">
+	<a href="./work 1.html" target="_blank">第一周</a>
+	<a href="./work 2.html" target="_blank">第二周</a>
+	<a href="./work3.html" target="_blank" >第三周</a>
+	<a href="./work4.html" target="_blank">第四周</a>
+	<a href="./work5.html" target="_blank">第五周</a>
+	<a href="#" target="_blank">第六周</a>
+  </div>
  </body>
 </html>
