@@ -9,49 +9,52 @@
 	 padding: 0 ;
 	}
 	body{
-	 background : url("img/six.jpg") ; 
+	  background-image : url("img/six.png") ; 
+	  background-size : 100% ;
 	}
 	a{
-	 background-color : rgb(216,191,216) ;
-	 color : white ;
-	 text-decoration : none ;
-	 line-height : 80px ;
-	 font-size : 30px ;
-	 font-weight : bold ;
-	 letter-spacing : 10px ;
-	 margin : 10px ;
-	 padding : 15px ;
-	 border-radius : 15px ;
-	 box-shadow : 2px 2px 2px white ;
+	  background-color : rgb(216,191,216) ;
+	  color : white ;
+	  text-decoration : none ;
+	  line-height : 100px ;
+	  font-size : 40px ;
+	  font-weight : bold ;
+	  letter-spacing : 10px ;
+	  margin : 25px ;
+	  padding : 15px ;
+	  border-radius : 15px ;
+	  box-shadow : 2px 2px 2px white ;
 	}
 	a:hover{
-	 background-color : #4169E1 ;
-	 color : white ;
+	  background-color : #4169E1 ;
+	  color : white ;
 	}
 	#boxTitle{
 	  background-color : powderblue ;
 	  color : white ;
-	  font-size :30px ;
-	  height : 40px ;
+	  font-size :50px ;
+	  height : 60px ;
 	  padding : 20px ;
 	  text-align : center ;
-	  width : 100% ;
 	  text-shadow : 2px 2px black ;
 	  font-family : "华文琥珀" ;
 	}
 	#boxLeft{  
-        height : 500px ;  
+        height : 1000px ;  
         width : 50% ;  
         float : left ;
 		overflow : scroll ;
-		font-size : 25px ;
+		font-size : 45px ;
 		font-family : "华文楷体" ;
+		background-color : #FAF0E6 ;
     }  
 	#boxRight{  
-         height : 500px ;  
+         height : 1000px ;  
          width : 50% ;  
          position : relative ;  
          float : left ;  
+		 font-size : 45px ;
+		 font-family : "华文楷体" ;
     } 
 	#face{     
          background-image : url("img/myface.jpg") ;
@@ -62,15 +65,19 @@
 		 border : 2px black solid ;  
 		 bottom : 0px ;
 		 right : 0px ;	
-    }  
+    } 
 	#footer{  
-	   font-size : 20px ;
+	   font-size : 25px ;
        background-color : gray ;
-	   height : 95px ;
+	   height : 100px ;
 	   line-height: 40px;
 	   text-align : center ;
 	   float : left ;
 	   width : 100% ;
+	   bottom : 0 ;
+	} 
+	iframe{
+	   border : 2px  solid ;
 	}
    </style>
  </head>
@@ -79,7 +86,6 @@
 	秦世纪忠实迷妹的个人页面
   </div>
   <div>
-   <p>  
     <a href = "work1.html" target="iframe" >游子吟</a>
     <a href = "work2.html" target="iframe" >临江仙</a> 
 	<a href = "work3.html" target="iframe" >笔记本</a>
@@ -91,14 +97,10 @@
     <a href = "work9.html" target="iframe" >小页面</a>
 	<a href = "work10.html" target="iframe" >王维诗</a>
     <a href = "work11.html" target="iframe" >攻略本</a>
-    <a href = "work12.html" target="iframe" >题目本</a>
-	<a href = "work13.html" target="iframe" >蛋仔岛</a>
-    <a href = "work14.html" target="iframe" >批队伍</a>
-   </p>
+	<a href = "work12.html" target="iframe" >蛋仔岛</a>
   </div>
   <div id="boxLeft" >	   
-   <iframe name="iframe" width="500" height="400"></iframe>
-   
+   <iframe  scr="work5.html"  name="iframe" width="500" height="500"></iframe>
    <h2>洛神赋</h2>
     <p>黄初三年，余朝京师，还济洛川。古人有言：斯水之神，名曰宓妃。感宋玉对楚王神女之事，遂作斯赋。其辞曰：</p>
 　  <p>余从京域，言归东藩，背伊阙，越轘辕，经通谷，陵景山。日既西倾，车殆马烦。尔乃税驾乎蘅皋，秣驷乎芝田，容与乎阳林，流眄乎洛川。于是精移神骇，忽焉思散。俯则未察，仰以殊观。睹一丽人，于岩之畔。乃援御者而告之曰：“尔有觌于彼者乎？彼何人斯，若此之艳也！”御者对曰：“臣闻河洛之神，名曰宓妃。然则君王之所见也，无乃是乎！其状若何？臣愿闻之。”</p>
@@ -110,13 +112,18 @@
   </div>
   <div id="boxRight" > 
    <h2>个人简历</h2>
+    <p>我是来自江西科技师范大学元宇宙产业学院计算机科学与技术2班的陈紫轩</p>
+    <p>现为学生会志工站综治部部员，也是班级中的生活委员</p>
+	<p>我曾参加过许多志愿服务活动，比如：应急救护培训，推动移风易俗，情系雷锋，关爱留守儿童等各种志愿活动</p>
+	<p>我的联系方式是：13237514703</p>
+	<p>我的邮箱地址是：1662813638@qq.com</p>
    <div id="face">
     22计科2班陈紫轩
    </div>
   </div>
   <div id="footer">
 	江西科技师范大学元宇宙产业学院<br>
-	计算机科学与技术二班陈紫轩 完成于2023-6-6
+	计算机科学与技术二班陈紫轩完成于2023-6-6
   </div>
  </body>
 </html>

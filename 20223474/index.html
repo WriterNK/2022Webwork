@@ -1,39 +1,130 @@
-<!doctype html>
 <html lang="en">
  <head>
-  <meta charset="">
+  <meta charset="UTF=8">
   <title>
-   我的个人网页
+   刘润林的个人网页
   </title>
   <style type="text/css">
+    *{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+    }
    body{
-   background-color : #000000 ;
+   background-color: black;
+   background:url("img/背景.jpg");
+   background-size: cover;
+   height: 600px;
+   color:white;
    }
    h1{
-   background : #666666 ;
-   text-align : center ;
+    text-align: center;
    }
    nav{
    text-align : center ;
    background-color : none ;
    }
+   .nav{
+    height: 40px;
+    background: linear-gradient(cyan,blue);
+   }
+   .navlist li{
+    float: left;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+   }
+   .navlist a{
+    color: black;
+    display: block;
+   }
+   .navlist{
+    width: 800px;
+    margin: auto;
+   }
+   .navlist a :hover{
+    background: red;
+   }
    a{
    color : white ;
    text-decoration: none ;
+  
    }
-  </style>
- </head>
- <body>
-  <h1>
-   我的个人网页
-  </h1>
-  <nav>
-   <a href="work1.html">
-    webwork1
-   </a>
-   <a href="work2.html">
-    webwork2
-   </a>
-  </nav>
+   #boxLeft{  
+    height : 100% ;  
+    width : 50% ;  
+    background-color :red;  
+    float : left ;  
+    background: url("img/配图.jpg");
+    background-size: cover;
+    color: black;
+    }  
+    #boxRight{  
+     height : 100% ;  
+     width : 50% ;  
+     background-color :aquamarine;  
+     position : relative ;  
+     float : left ;  
+    }  
+    #face{     
+     background-image :url("img/myface.jpg") ;
+  background-position:center;
+     height : 133px ;
+  width: 100px ;
+     position : absolute ;
+  border : 2px black solid ;  
+     bottom : 0px ;
+  right : 0px ;
+  font-size : 10px ;
+  color : white ;
+    }
+    #footer{ 
+  font-size: 20px ;
+     line-height: 40px;
+  height:40px;
+  text-align:center;
+ }
+   </style>
+  </head>
+  <body>
+   <h1>
+   刘润林的个人网页
+   </h1>
+   <div class="nav">
+    <ul class="navlist">
+      <li><a href="第一次作业.HTML">第一次作业</a></li>
+      <li><a href="第二次作业.HTML">第二次作业</a></li>
+      <li><a href="第三次作业.HTML">第三次作业</a></li>
+      <li><a href="第四次作业.HTML">第四次作业</a></li>
+      <li><a href="第五次作业.HTML">第五次作业</a></li>
+    </ul>
+   </div>
+   <div id="boxLeft">
+    <h1>将进酒</h1>
+    君不见，黄河之水天上来，奔流到海不复回。<br>
+    君不见，高堂明镜悲白发，朝如青丝暮成雪!<br>
+    人生得意须尽欢，莫使金樽空对月。<br>
+    天生我材必有用，千金散尽还复来。<br>
+    烹羊宰牛且为乐，会须一饮三百杯。<br>
+    岑夫子，丹丘生，将进酒，杯莫停。<br>
+    与君歌一曲，请君为我倾耳听。<br>
+    钟鼓馔玉不足贵，但愿长醉不复醒。<br>
+    古来圣贤皆寂寞，惟有饮者留其名。<br>
+    陈王昔时宴平乐，斗酒十千恣欢谑。<br>
+    主人何为言少钱，径须沽取对君酌。<br>
+    五花马、千金裘，呼儿将出换美酒，与尔同销万古愁。
+    </div>
+  <div id="boxRight">
+    <h1>你好，欢迎来到我的个人网页。我是刘润林，来自江西省宜春市丰城市。目前在江西科技师范大学的元宇宙产业学院学习，专业是计算机科学与技术，很高兴认识你。
+    </h1>
+  <div id="face">  
+   22计科2班刘润林
+  </div> 
+  </div>
+<div id="footer">
+  江西科技师范大学元宇宙产业学院<br>计算机科学与技术专业2班 刘润林 联系电话：18720653870<br>完成于2023-06-07
+ </div>
  </body>
 </html>

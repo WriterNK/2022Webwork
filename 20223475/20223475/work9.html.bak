@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>秦世纪忠实迷妹的个人页面</title>
+  <style type="text/css">
+	div#menu{
+	 background-color : #F5DEB3 ;
+	 padding : 20px ;
+	 float : left ;
+	}
+	button{
+	 font-size : 25px ;
+	 padding : 7px ;
+	 margin : 7px ;
+	 border-radius : 12px ;
+	 font-family : "华文新魏" ;
+	 border : solid 2px #FFE4C4 ;
+     box-shadow : 3px 3px 5px #FFB6C1 ;
+	}
+	button.two{
+	 background-color : #E0FFFF ;
+	}
+	button.name{
+	 background-color : #F0F8FF ;
+	} 	
+  </style>
+ </head>
+ <body>
+  <div id="box1">
+   <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.pzO3Hs5hKgH-JRCIeOat3wHaDz?w=324&h=179&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="" height="" border="0" alt="">
+  </div>
+  
+  <div id="menu">
+   <p>
+    <button class="two">
+     诗仙
+    </button>
+    <button class="name">
+     李白
+    </button>
+   </p> 
+
+   <p>
+    <button class="two">
+     诗圣
+    </button>
+    <button class="name">
+     杜甫
+   </button>
+   </p> 
+
+   <p>
+    <button class="two">
+     诗神
+    </button>  
+    <button class="name">
+     苏轼
+    </button>
+   </p>
+  </div> 
+
+  <div id="menu">
+   <p>
+    <button class="two">
+     诗魔
+    </button>
+    <button class="name">
+     白居易
+    </button>
+   </p> 
+
+   <p>
+    <button class="two">
+     诗狂
+    </button>
+    <button class="name">
+     贺知章
+   </button>
+   </p> 
+
+   <p>
+    <button class="two">
+     诗豪
+    </button>  
+    <button class="name">
+     刘禹锡
+    </button>
+   </p>
+  </div> 
+ </body>
+</html>

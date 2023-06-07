@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+   <style type="text/css">
+   div{
+    position : absolute ;
+	top : 10px ;
+	right : 80px ;
+	width : 500px ;
+	font-size : 15px ;
+	line-height : 25px ;
+   }
+   dt{
+    color : purple ;
+	font-weight : bold ;
+	font-size : 20px ;
+   }
+   dd{
+    font-size : 18px ;
+   }
+  </style>
+ </head>
+ <body>
+  <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.Cnkg_nwAPGUM0FJzA-0zMwHaNK?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" width="400" height="500" >
+  <div>
+   <dt>中文名</dt>
+   <dd>金州勇士队</dd>
+   <dt>外文名</dt>
+   <dd>Golden State Warriors</dd>
+   <dt>成立时间</dt>
+   <dd>1946年</dd>
+   <dt>所属地区</dt>
+   <dd>美国加利福尼亚州旧金山</a></dd>
+   <dt>主场馆</dt>
+   <dd>大通中心球馆</dd>
+   <dt>拥有者</dt>
+   <dd>乔·拉科布、皮特·古伯</dd>
+   <dt>现任主教练</dt>
+   <dd>史蒂夫·科尔</dd>
+   <dt>球衣颜色</dt>
+   <dd>白色 客场蓝色 黑色 黄色</dd>
+   <dt>主场</dt>
+   <dd>大通中心球馆</dd>
+   <dt>所属NBA赛区</dt>
+   <dd>西部联盟太平洋赛区</dd>
+  </div>
+ </body>
+</html>
